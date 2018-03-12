@@ -1,17 +1,17 @@
-<div id="title">H6nry's Cydia repo</div>
+<div id="title">Stix Cydia Repository</div>
 <div id="content">
-This is my Cydia repo.<br>
-Feel free to add it to your list! Maybe some awesome stuff waits for you here ;)<br><br>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://h6nry.github.io/repo/"><b>Open Cydia for me!</b></a><span id="ocy"></span><br><br>
+This is my personal Cydia repository.<br><br>
+<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://stix.github.io/"><b>Add To Repo To Cydia!</b></a><span id="ocy"></span><br><br>
 <hr>
-<h4>These are the packages on this repo</h4>
+<h4>The following packages are available on this repository</h4>
 <div id="samples" style="width:100%"></div>
 <script type="text/javascript">
-//Some fast iOS check.
+	
+// Some fast iOS check.
 is_ios = (navigator.userAgent.match(/iPad/i) != null) || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
-if (!is_ios) document.getElementById('ocy').innerHTML = ' Most probably, you will not be able to open Cydia.';
+if (!is_ios) document.getElementById('ocy').innerHTML = 'Caution : You may not be able to open Cydia.';
 
-//The functionality for the package list.
+// The functionality for the package list.
 function Apt_package() {
 	this.Package;
 	this.Version;
@@ -22,9 +22,9 @@ function Apt_package() {
 	this.Author;
 	this.Filename;
 	this.Depiction;
-} //Constructor for Apt_package object.
+} // Constructor for Apt_package object.
 
-function parsePackage(string) { //TODO: Make sure no key is undefined
+function parsePackage(string) {
 	var a_package = new Apt_package();
 	var lines = string.split('\n');
 
@@ -33,7 +33,7 @@ function parsePackage(string) { //TODO: Make sure no key is undefined
 		var line = lines[c];
 		if (line.search(':') == -1) continue;
 
-		var components = line.split(':'); //Quick and dirty.
+		var components = line.split(':'); // Quick and dirty.
 		var key = components.shift();
 		var value = components.join(':').trim();
 
@@ -66,7 +66,7 @@ function parsePackage(string) { //TODO: Make sure no key is undefined
 				a_package.Depiction = value;
 				break;
 			default:
-				break; //Unknown key.
+				break; // Unknown key.
 		}
 	}
 
@@ -77,7 +77,7 @@ function parsePackage(string) { //TODO: Make sure no key is undefined
 
 function parsePackages(parse) {
 	var depictions = {};
-	while (parse.indexOf('\r') >= 0) parse = parse.replace('\r', ''); //Remove all carriage returns, which should not be there, anyways.
+	while (parse.indexOf('\r') >= 0) parse = parse.replace('\r', ''); // Remove all carriage returns, which should not be there, anyways.
 
 	var packages = parse.split('\n\n');
 
@@ -90,7 +90,7 @@ function parsePackages(parse) {
 
 		if (depictions[pid] && (parseFloat(a_package.Version) >= parseFloat(depictions[pid].Version))) { //Only keep the latest version.
 			depictions[pid] = a_package;
-		} else if (depictions[pid] == undefined) { //Package not added yet, add.
+		} else if (depictions[pid] == undefined) { // Package not added yet, add.
 			depictions[pid] = a_package;
 		}
 	}
@@ -114,13 +114,13 @@ xhr.onreadystatechange = function() {
 	for (key in depictionArray) {
 		var pack = depictionArray[key];
 
-		//The following code is very messy. You have been warned.
+		// The following code is very messy. You have been warned.
 		document.getElementById('samples').innerHTML = document.getElementById('samples').innerHTML +
 			'<a href="javascript:var e = document.getElementById(\'u_' + pack.Package + '\'); e.style.display = e.style.display= (e.style.display == \'block\' ? \'none\' : \'block\');">' +
 			pack.Name + ' (' + pack.Version + ')</a><br>' +
 			'<div id="u_' + pack.Package + '" style="display:none;">' +
 			'&nbsp;&nbsp;' + pack.Description + '<br>' +
-			(is_ios ? '&nbsp;&nbsp;<a href="' +  'cydia://url/https://cydia.saurik.com/api/share#?source=http://h6nry.github.io/repo/&package=' + pack.Package + '" target="_blank">Show in Cydia.</a><br>' : '') +
+			(is_ios ? '&nbsp;&nbsp;<a href="' +  'cydia://url/https://cydia.saurik.com/api/share#?source=http://stix.github.io/&package=' + pack.Package + '" target="_blank">Show in Cydia.</a><br>' : '') +
 			'&nbsp;&nbsp;<a href="' + pack.Depiction + '" target="_blank">Show more info.</a><br>' +
 			'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the .deb package.</a><br><br>' +
 			'</div>';
