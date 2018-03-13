@@ -1,10 +1,8 @@
-<div>
-	<img src="http://mrsmith.github.io/CydiaIcon.png">
-</div>div
+<img src="https://mrsmith.github.io/CydiaIcon.png">
 <div id="title">Stix Cydia Repository</div>
 <div id="content">
 This is my personal Cydia repository.<br><br>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://mrsmithx.github.io/"><b>Add To Repo To Cydia!</b></a><span id="ocy"></span><br><br>
+<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mrsmithx.github.io/"><b>Add Repo To Cydia!</b></a><span id="ocy"></span><br><br>
 <hr>
 <h4>The following packages are available on this repository</h4>
 <div id="samples" style="width:100%"></div>
@@ -123,7 +121,7 @@ xhr.onreadystatechange = function() {
 			pack.Name + ' (' + pack.Version + ')</a><br>' +
 			'<div id="u_' + pack.Package + '" style="display:none;">' +
 			'&nbsp;&nbsp;' + pack.Description + '<br>' +
-			(is_ios ? '&nbsp;&nbsp;<a href="' +  'cydia://url/https://cydia.saurik.com/api/share#?source=http://mrsmithx.github.io/&package=' + pack.Package + '" target="_blank">Show in Cydia.</a><br>' : '') +
+			(is_ios ? '&nbsp;&nbsp;<a href="' +  'cydia://url/https://cydia.saurik.com/api/share#?source=https://mrsmithx.github.io/&package=' + pack.Package + '" target="_blank">Show in Cydia.</a><br>' : '') +
 			'&nbsp;&nbsp;<a href="' + pack.Depiction + '" target="_blank">Show more info.</a><br>' +
 			'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the .deb package.</a><br><br>' +
 			'</div>';
