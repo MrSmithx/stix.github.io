@@ -19,7 +19,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.9), com.rpetrich.rocketbootstrap (>= 1.0.2)
 Conflicts: io.github.himynameisubik.sonus
 Architecture: iphoneos-arm
-Filename: Files//org.fwdr.sonus_3.0.2-3_iphoneos-arm-1.deb
+Filename: Files//org.fwdr.sonus_3.0.2-3_iphoneos-arm.deb
 Size: 113684
 Installed-Size: 846
 MD5sum: 958344bf22345e89e00c037c40fdc3d8
