@@ -12,6 +12,8 @@ Description: Show the network you connected to when you connect like in Android!
 Name: WiJoin
 Author: Bruno Andrade <brubiluco@globo.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wijoinDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wijoinDp
+Icon: file:///Library/PreferenceBundles/WiJoinPrefs.bundle/WiJoinPrefs@2x.png
 
 Package: com.huub.betterpowermenu
 Version: 1.0.1
@@ -28,6 +30,8 @@ Description: A new and better powermenu
 Name: BetterPowerMenu
 Author: Huub Lubbers <huublubbersemmen@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterpowermenuDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterpowermenuDp
+Icon: file:///Library/PreferenceBundles/BetterPowerMenu.bundle/icon.png
 
 Package: com.julioverne.spotilife
 Version: 0.8
@@ -71,6 +75,8 @@ Description: Make your icons dance
 Name: Cylinder
 Author: Reed Weichler <rweichler+cydia@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
 
 Package: com.wizages.bae
 Version: 1.4
@@ -86,6 +92,8 @@ MD5sum: 1244b66e1ec95609f3345e88ad16d330
 Description: brings back the apple logo for resprings
 Name: MakeRespringsGreatAgain
 Author: wizages <wizagesmax@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=makerespringsgreatagainDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=makerespringsgreatagainDp
 
 Package: info.rpdev.betterfivecolumnhomescreen
 Version: 1.0.1
@@ -100,6 +108,8 @@ MD5sum: 75742011f213c1ac6febba5dadafffaa
 Description: Five Column Homescreen with proper spacing!
 Name: betterFiveColumnHomescreen
 Author: Redpandadev <rpdev@rpdev.info>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfivecolumnhomescreenDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfivecolumnhomescreenDp
 
 Package: org.fwdr.sonus
 Version: 3.0.2-3
@@ -116,6 +126,8 @@ Description: A better & highly customizable volume hud.
 Name: Sonus
 Author: ubik <sonus@fwdr.org>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sonusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sonusDp
+Icon: file:///Library/PreferenceBundles/SonusPrefs.bundle/Images/Sonus@2x.png
 
 Package: org.thebigboss.blurrybadges
 Version: 1.1
@@ -131,6 +143,8 @@ Description: Add customizable blur to SpringBoard icon badges.
 Name: BlurryBadges
 Author: PoomSmart <poomst@hotmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blurrybadgesDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blurrybadgesDp
+Icon: file:///Library/PreferenceBundles/BackdropBadgePref.bundle/BackdropBadgePref@2x.png
 
 Package: org.thebigboss.respringprogress
 Version: 1.3
@@ -145,4 +159,6 @@ MD5sum: c0db67069ad172ec5d13a8de4a3d8c2a
 Description: progress bar for respring & reboot
 Name: RespringProgress
 Author: wizages <wizagesmax@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringprogressDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringprogressDp
 
