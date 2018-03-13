@@ -1,7 +1,8 @@
+<img src="CydiaIcon.png">
 <div id="title">Stix Cydia Repository</div>
 <div id="content">
 This is my personal Cydia repository.<br><br>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://stix.github.io/"><b>Add To Repo To Cydia!</b></a><span id="ocy"></span><br><br>
+<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://mrsmithx.github.io/"><b>Add To Repo To Cydia!</b></a><span id="ocy"></span><br><br>
 <hr>
 <h4>The following packages are available on this repository</h4>
 <div id="samples" style="width:100%"></div>
@@ -9,7 +10,7 @@ This is my personal Cydia repository.<br><br>
 	
 // Some fast iOS check.
 is_ios = (navigator.userAgent.match(/iPad/i) != null) || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
-if (!is_ios) document.getElementById('ocy').innerHTML = 'Caution : You may not be able to open Cydia.';
+if (!is_ios) document.getElementById('ocy').innerHTML = ' Caution : Cydia may not be available';
 
 // The functionality for the package list.
 function Apt_package() {
