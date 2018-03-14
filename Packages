@@ -1,7 +1,7 @@
 Package: com.brunonfl.wijoin
 Version: 1.2
 Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: Mr Smith
 Depends: firmware(>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm
 Filename: Files//wijoin_1.2.deb
