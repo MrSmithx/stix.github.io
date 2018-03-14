@@ -65,7 +65,6 @@
 				<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
 					<div class="service-list">
 						<div class="service-list-col1">
-							// <i class="fa-paw"></i>
 						</div>
 						<div class="service-list-col2">
 							<h3>What is Cydia ?</h3>
@@ -74,7 +73,6 @@
 					</div>
 					<div class="service-list">
 						<div class="service-list-col1">
-							// <i class="fa-gear"></i>
 						</div>
 						<div class="service-list-col2">
 							<h3>Cydia Development</h3>
@@ -83,7 +81,6 @@
 					</div>
 					<div class="service-list">
 						<div class="service-list-col1">
-							// <i class="fa-apple"></i>
 						</div>
 						<div class="service-list-col2">
 							<a class="link animated fadeInUp delay-1s servicelink" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mrsmithx.github.io/">Add Repo to Cydia</a>
@@ -101,7 +98,9 @@
 	<footer class="footer">
 		<!--main-section-start-->	
 		<div class="container">
-			<div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
+			<div class="credits">
+				<a href="#"><img src="img/footer-logo.png" alt=""></a>
+			</div>
 			<span class="copyright">&copy; Mr Smith. All Rights Reserved</span>
 		</div>
 	</footer>
@@ -113,9 +112,7 @@
 			$('.res-nav_click').click(function() {
 				$('.main-nav').slideToggle();
 				return false
-
 			});
-
 		});
 	</script>
 
@@ -126,7 +123,6 @@
 		});
 		wow.init();
 	</script>
-
 
 	<script type="text/javascript">
 		$(window).load(function() {
@@ -153,14 +149,10 @@
 
 	<script type="text/javascript">
 		$(window).load(function() {
-
-
 			var $container = $('.portfolioContainer'),
 				$body = $('body'),
 				colW = 375,
 				columns = null;
-
-
 			$container.isotope({
 				// disable window resizing
 				resizable: true,
@@ -187,12 +179,10 @@
 
 				var selector = $(this).attr('data-filter');
 				$container.isotope({
-
 					filter: selector,
 				});
 				return false;
 			});
-
 		});
 	</script>
 
