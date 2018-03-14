@@ -98,7 +98,7 @@
 	<footer class="footer">
 		<!--main-section-start-->	
 		<div class="container">
-			<div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
+			<a href="#"><img src="img/footer-logo.png" alt=""></a>
 			<span class="copyright">&copy; Mr Smith. All Rights Reserved</span>
 		</div>
 	</footer>
@@ -110,9 +110,7 @@
 			$('.res-nav_click').click(function() {
 				$('.main-nav').slideToggle();
 				return false
-
 			});
-
 		});
 	</script>
 
@@ -123,7 +121,6 @@
 		});
 		wow.init();
 	</script>
-
 
 	<script type="text/javascript">
 		$(window).load(function() {
@@ -150,14 +147,10 @@
 
 	<script type="text/javascript">
 		$(window).load(function() {
-
-
 			var $container = $('.portfolioContainer'),
 				$body = $('body'),
 				colW = 375,
 				columns = null;
-
-
 			$container.isotope({
 				// disable window resizing
 				resizable: true,
@@ -184,12 +177,10 @@
 
 				var selector = $(this).attr('data-filter');
 				$container.isotope({
-
 					filter: selector,
 				});
 				return false;
 			});
-
 		});
 	</script>
 
