@@ -1,10 +1,10 @@
 Package: com.brunonfl.wijoin
 Version: 1.2
 Section: Tweaks
-Maintainer: Mr Smith
+Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware(>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//wijoin_1.2.deb
+Filename: Files//com.brunonfl.wijoin_1.2_iphoneos-arm.deb
 Size: 351514
 Installed-Size: 621
 MD5sum: 018f3d3fb24415bc2ceb815fa5dc77e0
@@ -14,6 +14,22 @@ Author: Bruno Andrade <brubiluco@globo.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wijoinDp
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wijoinDp
 Icon: file:///Library/PreferenceBundles/WiJoinPrefs.bundle/WiJoinPrefs@2x.png
+
+Package: com.cl3ment.bootsound
+Version: 1.2
+Priority: extra
+Section: Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//com.cl3ment.bootsound_1.2_iphoneos-arm.deb
+Size: 319744
+MD5sum: dba1affe815a83e540b549e67515fe16
+Description: Play a sound when SpringBoard starts up
+Name: BootSound
+Author: cl3ment <cl3mentdev@gmail.com>
+Homepage: http://modmyi.com/info/bootsound.php
+Depiction: http://modmyi.com/info/bootsound.d.php
 
 Package: com.huub.betterpowermenu
 Version: 1.0.1
@@ -94,6 +110,21 @@ Name: MakeRespringsGreatAgain
 Author: wizages <wizagesmax@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=makerespringsgreatagainDp
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=makerespringsgreatagainDp
+
+Package: ezccmodules.control-center.ezcc
+Version: 0.0.2
+Section: Control Center
+Maintainer: macs@m4cs.xyz
+Depends: firmware (>=11.0), mobilesubstrate, com.ioscreatix.silo
+Conflicts: 
+Replaces: com.ezccmodules.control-center.ezlocationmodule, com.m4cs.control-center.ezrespring, com.ezccmodules.control-center.ezsafemodemodule, com.exccmodules.control-center.ezuicache
+Architecture: iphoneos-arm
+Filename: Files//ezccmodules.control-center.ezcc_0.0.2_iphoneos-arm.deb
+Size: 40064
+MD5sum: 3f400319fe8baa2e5bc8d4475888294c
+Description: Complete Package for EzCC. Will be adding toggles to this packages only form now on!
+Name: EzCC
+Author: M4cs, Simalary, Chiaxan, MidnightChips
 
 Package: info.rpdev.betterfivecolumnhomescreen
 Version: 1.0.1
