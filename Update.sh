@@ -19,6 +19,7 @@ find . -name 'Packages.bz2' -delete
 echo "-------------------"
 echo "Scanning For New Packages..."
 ./dpkg-scanpackages -m ./Files /dev/null >Packages
+rm -f Packages.bz2
 
 echo "-------------------"
 echo "Creating New Packages Files..."
