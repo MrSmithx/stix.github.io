@@ -2,6 +2,7 @@
 
 clear
 echo Scanning for new Packages...
+rm Packages
 ./dpkg-scanpackages Files /dev/null > Packages
 read -p "Press Enter to Continue"
 
