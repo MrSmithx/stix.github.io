@@ -1,16 +1,19 @@
 Package: com.cl3ment.bootsound
 Version: 1.2
-Priority: extra
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files//com.cl3ment.bootsound_1.2_iphoneos-arm.deb
+Filename: ./Files/com.cl3ment.bootsound_1.2_iphoneos-arm.deb
 Size: 319744
 MD5sum: dba1affe815a83e540b549e67515fe16
-Description: Play a sound when SpringBoard starts up
-Name: BootSound
-Author: cl3ment <cl3mentdev@gmail.com>
+SHA1: 8784383e54e972676f8e8b350d9358ef2166d501
+SHA256: fd07a2721670704998d26783a1391f669fb2eed31d49be14a359156e0b2e8ed1
+Section: Tweaks
+Priority: extra
 Homepage: http://modmyi.com/info/bootsound.php
+Description: Play a sound when SpringBoard starts up
+Author: cl3ment <cl3mentdev@gmail.com>
 Depiction: http://modmyi.com/info/bootsound.d.php
+Name: BootSound
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 

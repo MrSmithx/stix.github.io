@@ -1,8 +1,0 @@
-Origin: Stix repo
-Label: Stix repo
-Suite: stable
-Version: 1.0
-Codename: stixrepo
-Architectures: iphoneos-arm
-Components: main
-Description: Stix Cydia Repository
