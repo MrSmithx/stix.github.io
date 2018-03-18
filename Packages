@@ -14,3 +14,17 @@ Author: cl3ment <cl3mentdev@gmail.com>
 Homepage: http://modmyi.com/info/bootsound.php
 Depiction: http://modmyi.com/info/bootsound.d.php
 
+Package: com.julioverne.spotilife
+Version: 0.8
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./Files//com.julioverne.spotilife_0.8_iphoneos-arm.deb
+Size: 79532
+MD5sum: 90fd873d82921b7446d2f091d7a226cd
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Name: Spotilife
+Author: julioverne
+Homepage: http://twitter.com/ijulioverne
+
