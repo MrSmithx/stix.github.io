@@ -28,3 +28,20 @@ Name: Spotilife
 Author: julioverne
 Homepage: http://twitter.com/ijulioverne
 
+Package: com.unlimapps.ytpp
+Version: 1.4r-90
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.ytpp_1.4r-90_iphoneos-arm.deb
+Size: 3167704
+MD5sum: 31e2c57fcec18c381d06a8c1dfc9481b
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Name: YouTube ++
+Author: UnlimApps Inc <support@unlimapps.com>
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.ytpp/
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.ytpp/
+
