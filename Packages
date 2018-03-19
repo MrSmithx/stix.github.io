@@ -27,6 +27,20 @@ Homepage: https://mrsmithx.github.io
 
 Package: com.unlimapps.ytpp
 Version: 1.4r-90
+Section: Tweaks
+Maintainer: MrSmith
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.ytpp_1.4r-90_[no_ads]_iphoneos-arm.deb
+Size: 2096948
+MD5sum: 29926079b133c87626ec028e39e60ec9
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Name: YouTube ++ [No Ads]
+Homepage: https://mrsmithx.github.io
+
+Package: com.unlimapps.ytpp
+Version: 1.4r-90
 Priority: optional
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -41,18 +55,4 @@ Name: YouTube ++
 Author: UnlimApps Inc <support@unlimapps.com>
 Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.ytpp/
 Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.ytpp/
-
-Package: com.yourepo.kiiimo.uasharedtools
-Version: 2.4r-31k
-Section: Development
-Depends: mobilesubstrate, firmware (>= 7.0), com.yourepo.kiiimo.crackplus
-Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
-Architecture: iphoneos-arm
-Filename: ./Files//com.unlimapps.uasharedtools_2.4r-31k_iphoneos-arm.deb
-Size: 22589628
-MD5sum: 181269e8667e00bfed982bf6998970c7
-Description: shared tools for unlimapps tweaks
-Name: uasharedtools (NO-ADS)
-Author: UnlimApps Inc.
-Depiction: http://cydia.kiiimo.org/pack/uasharedtools
 
