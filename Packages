@@ -25,6 +25,19 @@ Name: YouTube++ Remove Ads
 Author: MrSmith
 Homepage: https://mrsmithx.github.io
 
+Package: com.unlimapps.uasharedtools.2.4r-31k.deb
+Version: 2.4r.31k
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.uasharedtools.2.4r-31k.deb
+Size: 15813088
+MD5sum: 0959fa11b12cf4d963175209cba2e10a
+Description: UASharedTools with no Ads for all ++ applications
+Name: UASharedTools [Ad Free]
+Author: UnlimApps Inc.
+Homepage: https://mrsmithx.github.io
+
 Package: com.unlimapps.ytpp
 Version: 1.4r-90
 Section: Tweaks
@@ -47,8 +60,8 @@ Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Architecture: iphoneos-arm
 Filename: ./Files//com.unlimapps.ytpp_1.4r-90_[no_ads]_iphoneos-arm.deb
-Size: 2097132
-MD5sum: f921630df2002163ddecab17ff3b4425
+Size: 2097156
+MD5sum: 1a0579c288f6278a56951681eaab0aa8
 Description: Download all YouTube Videos! Continue background playback and much more!!!
 Name: YouTube ++ [No Ads]
 Homepage: https://mrsmithx.github.io
