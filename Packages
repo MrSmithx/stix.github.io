@@ -17,11 +17,11 @@ Version: 0.0.2
 Section: Tweaks
 Maintainer: MrSmith
 Architecture: iphoneos-arm
-Filename: ./Files//Tweaks.YtppAds++.deb
+Filename: ./Files//com.mrsmith.ytppads_0.0.2_iphoneos-arm.deb
 Size: 4864
-MD5sum: b127ae24c9b88686779dc052826fa4ee
+MD5sum: 38c6ed3816c10019a45e8b88e941a5dd
 Description: Remove Ads from YouTube++
-Name: YouTubeAds
+Name: YouTube++ Remove Ads
 Author: MrSmith
 Homepage: https://mrsmithx.github.io
 
