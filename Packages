@@ -28,31 +28,28 @@ Homepage: https://mrsmithx.github.io
 Package: com.unlimapps.ytpp
 Version: 1.4r-90
 Section: Tweaks
-Maintainer: MrSmith
-Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
-Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
-Architecture: iphoneos-arm
-Filename: ./Files//com.unlimapps.ytpp_1.4r-90_[no_ads]_iphoneos-arm.deb
-Size: 2096948
-MD5sum: 29926079b133c87626ec028e39e60ec9
-Description: Download all YouTube Videos! Continue background playback and much more!!!
-Name: YouTube ++ [No Ads]
-Homepage: https://mrsmithx.github.io
-
-Package: com.unlimapps.ytpp
-Version: 1.4r-90
-Priority: optional
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: UnlimApps Inc.
 Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Architecture: iphoneos-arm
 Filename: ./Files//com.unlimapps.ytpp_1.4r-90_iphoneos-arm.deb
-Size: 3167704
-MD5sum: 31e2c57fcec18c381d06a8c1dfc9481b
+Size: 2095064
+MD5sum: c921bfd40cbc121da98a5d596489c26e
 Description: Download all YouTube Videos! Continue background playback and much more!!!
 Name: YouTube ++
-Author: UnlimApps Inc <support@unlimapps.com>
-Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.ytpp/
-Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.ytpp/
+Homepage: https://mrsmithx.github.io
+
+Package: com.unlimapps.ytpp.NoAds
+Version: 1.4r-90
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.ytpp_1.4r-90_[no_ads]_iphoneos-arm.deb
+Size: 2097132
+MD5sum: f921630df2002163ddecab17ff3b4425
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Name: YouTube ++ [No Ads]
+Homepage: https://mrsmithx.github.io
 
