@@ -25,16 +25,16 @@ Name: YouTube++ Remove Ads
 Author: MrSmith
 Homepage: https://mrsmithx.github.io
 
-Package: com.unlimapps.uasharedtools.2.4r-31k.deb
-Version: 2.4r.31k
+Package: com.unlimapps
+Version: 2.4r-31k
 Section: Tweaks
 Maintainer: UnlimApps Inc.
 Architecture: iphoneos-arm
-Filename: ./Files//com.unlimapps.uasharedtools.2.4r-31k.deb
-Size: 15832304
-MD5sum: 31268405226e8b5f178b0cc7562b38d1
+Filename: ./Files//com.unlimapps.uasharedtools_2.4r-31k.deb
+Size: 15832280
+MD5sum: 3ecac23eecd7a90ddf596f71f49b1766
 Description: UASharedTools for Electra with no Ads for all ++ applications
-Name: UASharedTools For Electra [Ad Free]
+Name: UASharedTools
 Author: UnlimApps Inc.
 Homepage: https://mrsmithx.github.io
 
