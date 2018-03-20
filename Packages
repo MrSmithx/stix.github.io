@@ -12,3 +12,57 @@ Name: Spotilife
 Author: julioverne
 Homepage: http://twitter.com/ijulioverne
 
+Package: com.mrsmith.ytppads
+Version: 0.0.2
+Section: Tweaks
+Maintainer: MrSmith
+Architecture: iphoneos-arm
+Filename: ./Files//com.mrsmithx.ytppads_0.0.2_iphoneos-arm.deb
+Size: 5044
+MD5sum: 6167875f3925afff5751170203db1c32
+Description: Remove Ads from YouTube ++
+Name: YouTube ++ [No Ads]
+Author: MrSmith
+Homepage: https://mrsmithx.github.io
+
+Package: com.unlimapps
+Version: 2.4r-31k
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.uasharedtools_2.4r-31k_iphoneos-arm.deb
+Size: 15832280
+MD5sum: 84fa7f851ad613b447deabf5dd97d5a6
+Description: UASharedTools for Electra with no Ads for all ++ applications
+Name: UASharedTools
+Author: UnlimApps Inc.
+Homepage: https://mrsmithx.github.io
+
+Package: com.unlimapps.ytpp
+Version: 1.4r-90
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.ytpp_1.4r-90_iphoneos-arm.deb
+Size: 2098208
+MD5sum: 7a9e90c9cb255ef5f73499221622becf
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Name: YouTube ++
+Homepage: https://mrsmithx.github.io
+
+Package: com.unlimapps.ytpp.noads
+Version: 1.4r-90
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.ytpp_1.4r-90_[no_ads]_iphoneos-arm.deb
+Size: 2099544
+MD5sum: e33453845393a173b97d1ae8b93da2dd
+Description: Download all YouTube Videos! Continue background playback and much more!!! Ad Free.
+Name: YouTube ++ [No Ads]
+Homepage: https://mrsmithx.github.io
+
