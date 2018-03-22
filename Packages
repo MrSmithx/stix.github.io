@@ -29,10 +29,11 @@ Package: com.unlimapps
 Version: 2.4r-31k
 Section: Tweaks
 Maintainer: UnlimApps Inc.
+Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./Files//com.unlimapps.uasharedtools_2.4r-31k_iphoneos-arm.deb
-Size: 15824100
-MD5sum: 343286892c6f2f9cf221846d021bdea7
+Size: 15835504
+MD5sum: 91ef0614399fe1239ff42848c4500925
 Description: UASharedTools for Electra with no Ads for all ++ applications
 Name: UASharedTools
 Author: UnlimApps Inc.
@@ -47,7 +48,7 @@ Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Architecture: iphoneos-arm
 Filename: ./Files//com.unlimapps.ytpp_1.4r-90_iphoneos-arm.deb
 Size: 2090348
-MD5sum: 5b08b2a9eedaa7cf926a1b156f816758
+MD5sum: 3efa55c80496ae5cfebc3a4f6bedf509
 Description: Download all YouTube Videos! Continue background playback and much more!!!
 Name: YouTube ++
 Homepage: https://mrsmithx.github.io
@@ -60,8 +61,8 @@ Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Architecture: iphoneos-arm
 Filename: ./Files//com.unlimapps.ytpp_1.4r-90_[no_ads]_iphoneos-arm.deb
-Size: 2095700
-MD5sum: 47f8372673aed096e151445b1cdabae6
+Size: 2097256
+MD5sum: 576eb207287c16adf70e1dd414a4531f
 Description: Download all YouTube Videos! Continue background playback and much more!!! Ad Free.
 Name: YouTube ++ [No Ads]
 Homepage: https://mrsmithx.github.io
