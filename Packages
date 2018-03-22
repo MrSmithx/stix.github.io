@@ -32,8 +32,8 @@ Maintainer: UnlimApps Inc.
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./Files//com.unlimapps.uasharedtools_2.4r-31k_iphoneos-arm.deb
-Size: 15832276
-MD5sum: 51e4d5382bb3bfaffdaaeefbe6db9cfa
+Size: 15832928
+MD5sum: 861297110743b68470cc4e7cfa55dc11
 Description: UASharedTools for Electra with no Ads for all ++ applications
 Name: UASharedTools
 Author: UnlimApps Inc.
