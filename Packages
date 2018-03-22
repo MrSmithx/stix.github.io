@@ -12,6 +12,19 @@ Name: Spotilife
 Author: julioverne
 Homepage: http://twitter.com/ijulioverne
 
+Package: com.mrsmithx.ytppads
+Version: 0.0.2
+Section: Tweaks
+Maintainer: MrSmith
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./Files//com.mrsmithx.ytppads_0.0.2_iphoneos-arm.deb
+Size: 4672
+MD5sum: 51ea4bbc9b3d3e3452f490708d142ae3
+Description: Remove Ads from pre-installed YouTube ++
+Name: YouTube ++ [Remove Ads]
+Homepage: https://mrsmithx.github.io
+
 Package: com.unlimapps
 Version: 2.4r-31k
 Section: Tweaks
