@@ -25,3 +25,45 @@ Description: Remove Ads from pre-installed YouTube ++
 Name: YouTube ++ [Remove Ads]
 Homepage: https://mrsmithx.github.io
 
+Package: com.unlimapps
+Version: 2.4r-31k
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.uasharedtools_2.4r-31k_iphoneos-arm.deb
+Size: 15832276
+MD5sum: 51e4d5382bb3bfaffdaaeefbe6db9cfa
+Description: UASharedTools for Electra with no Ads for all ++ applications
+Name: UASharedTools
+Author: UnlimApps Inc.
+Homepage: https://mrsmithx.github.io
+
+Package: com.unlimapps.ytpp
+Version: 1.4r-90
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.ytpp_1.4r-90_iphoneos-arm.deb
+Size: 2091552
+MD5sum: b84f842942e337b204b8d5912e323b88
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Name: YouTube ++
+Homepage: https://mrsmithx.github.io
+
+Package: com.unlimapps.ytpp.noads
+Version: 1.4r-90
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-8)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Architecture: iphoneos-arm
+Filename: ./Files//com.unlimapps.ytpp_1.4r-90_[no_ads]_iphoneos-arm.deb
+Size: 2095496
+MD5sum: 75cc309738e298f7537e191153422ab0
+Description: Download all YouTube Videos! Continue background playback and much more!!! Ad Free.
+Name: YouTube ++ [No Ads]
+Homepage: https://mrsmithx.github.io
+
