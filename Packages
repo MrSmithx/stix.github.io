@@ -25,15 +25,15 @@ Description: Remove Ads from pre-installed YouTube ++
 Name: YouTube ++ [Remove Ads]
 Homepage: https://mrsmithx.github.io
 
-Package: com.unlimapps
+Package: com.unlimapps.uasharedtools
 Version: 2.4r-31k
 Section: Tweaks
 Maintainer: UnlimApps Inc.
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./Files//com.unlimapps.uasharedtools_2.4r-31k_iphoneos-arm.deb
-Size: 15832928
-MD5sum: 861297110743b68470cc4e7cfa55dc11
+Size: 15822572
+MD5sum: 9c327d89a040dc497bd8bb9a95e58454
 Description: UASharedTools for Electra with no Ads for all ++ applications
 Name: UASharedTools
 Author: UnlimApps Inc.
