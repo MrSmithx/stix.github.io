@@ -42,7 +42,7 @@
 			var lineNumber = http_request.responseText.split('\n').length;
 			var tickerOutput = "";
 			
-			i = 0;
+			i = 5;
 			while (i < lineNumber) {
 				if (tickerResponse[i].indexOf('Name:') != -1) {
 					tickerOutput += [tickerResponse[i]];
