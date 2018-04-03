@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Mr Smith's Cydia Repository HomePage</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" />
+
+  <!-- Squad Theme CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+
+  <!-- Ticker CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    
+  <link rel="stylesheet" href="css/ticker.css">
+
+ 
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <script type="text/javascript">
+
+    var http_request = new XMLHttpRequest();
+
+    window.onload = function(e) {
+      http_request.onreadystatechange = handleCheckboxRequest;
+      http_request.open('GET','Packages',true);
+      http_request.send(null);
+    };
+
+    function handleCheckboxRequest() {     
+      if (http_request.readyState == 4 && http_request.status == 200) {
+	var tickerResponse = http_request.responseText.split('\n');
+	var lineNumber = http_request.responseText.split('\n').length;
+	var tickerOutput = "";
+		
+	i = 0;
+	while (i < lineNumber) {
+	  if (tickerResponse[i].indexOf('Name:') != -1) {
+	    tickerOutput += [tickerResponse[i]];
+	    tickerOutput += [' : '];
+	  }
+	  if (tickerResponse[i].indexOf('Version:') != -1) {
+	    tickerOutput += [tickerResponse[i]];
+	    tickerOutput += [' | '];
+	  }
+	  i++;
+	};
+        document.getElementById('pkgName').innerHTML = tickerOutput;
+      }
+    }  
+  </script>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="load"></div>
+  </div>
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <h1>Mr Smith's Cydia Repository</h1>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#service">Information</a></li>
+          <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mrsmithx.github.io/">Add To Cydia</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+    <div class="ticker-wrap">
+
+    <div class="ticker">
+  
+    <div class="ticker__item">Packages Currently Available On Repository | </div>
+    <div class="ticker__item"><div id="pkgName"</div></div>
+
+  </nav>
+
+  <!-- Section: intro -->
+  <section id="intro" class="intro">
+    <div class="wow fadeInUp" data-wow-delay="0.4s">
+      <div class="slogan">
+        <h2>WELCOME</h2>
+	<a href="#"><img src="img/logo.png" alt=""></a>
+        <h4>A COLLECTION OF USEFUL JAILBREAK 'TWEAKS' FOR MY OWN PERSONAL USE</h4>
+      </div>
+    </div>
+  <div class="page-scroll">
+    <a href="#service" class="btn btn-circle">
+      <i class="fa fa-angle-double-down animated"></i>
+    </a>
+  </div>
+  </section>
+  <!-- /Section: intro -->
+
+  <!-- Section: services -->
+  <section id="service" class="home-section text-center bg-gray">
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Repository Collection</h2>
+                <i class="fa fa-2x fa-angle-down animated"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="img/service-icon-1.png" alt="" />
+              </div>
+              <div class="service-desc">
+                <h5>What is Cydia</h5>
+                <p>Cydia is a Package Manager application developed by Jay Freeman (aka "Saurik") for Jailbroken iOS devices.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="img/service-icon-2.png" alt="" />
+              </div>
+              <div class="service-desc">
+                <h5>Purpose & Function</h5>
+                <p>Cydia provides a graphical user interface (GUI) to jailbroken users using Advanced Packaging Tool (APT) repositories to install software.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="img/service-icon-3.png" alt="" />
+              </div>
+              <div class="service-desc">
+                <h5>History</h5>
+                <p>Cydia was first released in February 2008 as an alternative to Installer.app on iPhone OS 1.1. In February 2018, Coolstar launched Electra with access to Cydia on iOS 11.0 - 11.1.2.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow fadeInRight" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="img/service-icon-4.png" alt="" />
+              </div>
+              <div class="service-desc">
+                <h5>Cydia Reference</h5>
+                <p>The name "Cydia" is a reference to the Cydia genus of moths, notably the coding moth, which is the proverbial "Worm of the Apple".</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: services -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <div class="wow shake" data-wow-delay="0.4s">
+            <div class="page-scroll marginbot-30">
+              <a href="#intro" id="totop" class="btn btn-circle">
+		<i class="fa fa-angle-double-up animated"></i>
+	      </a>
+            </div>
+          </div>
+          <p>&copy;Mr Smith. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+  <!-- Ticker JavaScript -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
