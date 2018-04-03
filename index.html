@@ -29,6 +29,7 @@
 	<script src="js/index.js"></script>
 	<script type="text/javascript">
         var http_request = new XMLHttpRequest();
+	var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 
 	window.onload = function(e) {
 		http_request.onreadystatechange = handleCheckboxRequest;
@@ -72,13 +73,12 @@
 			</ul>
 			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
 		</div>
-
+if !(iOS) {
 		<div class="ticker-wrap">
-
 		<div class="ticker">
-  
 		<div class="ticker__item">Packages Currently Available On Repository | </div>
 		<div class="ticker__item"><div id="pkgName"</div></div>
+	}
 
 	</nav>
 	<!--main-nav-end-->
