@@ -55,8 +55,9 @@
 				}
 				i++;
 			};
-
+if !(iOS) {
 			document.getElementById('pkgName').innerHTML = tickerOutput;
+}
 		}
         }  
 	</script>
@@ -73,13 +74,11 @@
 			</ul>
 			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
 		</div>
-if !(iOS) {
+		
 		<div class="ticker-wrap">
 		<div class="ticker">
 		<div class="ticker__item">Packages Currently Available On Repository | </div>
 		<div class="ticker__item"><div id="pkgName"</div></div>
-	}
-
 	</nav>
 	<!--main-nav-end-->
 
