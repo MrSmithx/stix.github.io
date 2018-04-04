@@ -41,23 +41,21 @@
 		if (http_request.readyState == 4 && http_request.status == 200) {
 			var tickerResponse = http_request.responseText.split('\n');
 			var lineNumber = http_request.responseText.split('\n').length;
-			var tickerOutput = "";
+			var tickerOutput = [];
 			
-			i = 5;
+			i = 0;
 			while (i < lineNumber) {
 				if (tickerResponse[i].indexOf('Name:') != -1) {
-					tickerOutput += [tickerResponse[i]];
-					tickerOutput += [' : '];
+					tickerOutput.unshift([tickerResponse[i]] + " : ");
 				}
 				if (tickerResponse[i].indexOf('Version:') != -1) {
-					tickerOutput += [tickerResponse[i]];
-					tickerOutput += [' | '];
+					tickerOutput.unshift([tickerResponse[i]] + " | ");
 				}
 				i++;
 			};
-			document.getElementById('pkgName').innerHTML = tickerOutput;
+			document.getElementById('pkgName').innerHTML = tickerOutput.join(' ');
 		}
-        }  
+        }
 	</script>
 </head>
 
