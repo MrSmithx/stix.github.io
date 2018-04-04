@@ -17,7 +17,7 @@
 	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 	<link href="css/responsive.css" rel="stylesheet" type="text/css">
 	<link href="css/animate.css" rel="stylesheet" type="text/css">  
-	<link rel="stylesheet" href="css/ticker.css">
+	<link href="css/ticker.css" rel="stylesheet" type="text/css">
 
 	<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
@@ -29,6 +29,7 @@
 	<script src="js/index.js"></script>
 	<script type="text/javascript">
         var http_request = new XMLHttpRequest();
+	var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 
 	window.onload = function(e) {
 		http_request.onreadystatechange = handleCheckboxRequest;
@@ -40,66 +41,60 @@
 		if (http_request.readyState == 4 && http_request.status == 200) {
 			var tickerResponse = http_request.responseText.split('\n');
 			var lineNumber = http_request.responseText.split('\n').length;
-			var tickerOutput = "";
+			var tickerOutput = [];
 			
-			i = 5;
+			i = 0;
 			while (i < lineNumber) {
 				if (tickerResponse[i].indexOf('Name:') != -1) {
-					tickerOutput += [tickerResponse[i]];
-					tickerOutput += [' : '];
+					tickerOutput.unshift([tickerResponse[i]] + " : ");
 				}
 				if (tickerResponse[i].indexOf('Version:') != -1) {
-					tickerOutput += [tickerResponse[i]];
-					tickerOutput += [' | '];
+					tickerOutput.unshift([tickerResponse[i]] + " | ");
 				}
 				i++;
 			};
-
-			document.getElementById('pkgName').innerHTML = tickerOutput;
+			document.getElementById('pkgName').innerHTML = tickerOutput.join(' ');
 		}
-        }  
+        } 
 	</script>
 </head>
 
 <body>
 	<nav class="main-nav-outer" id="test">
-		<!--main-nav-start-->
+	<!--main-nav-start-->
 		<div class="container">
 			<ul class="main-nav">
 				<li><a href="#header">Home</a></li>
-				<li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
+				<li class="small-logo"><a><img src="img/small-logo.png" alt=""></a></li>
 				<li><a href="#service">Services</a></li>
 			</ul>
 			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
 		</div>
-
+		
 		<div class="ticker-wrap">
-
 		<div class="ticker">
-  
 		<div class="ticker__item">Packages Currently Available On Repository | </div>
 		<div class="ticker__item"><div id="pkgName"</div></div>
-
 	</nav>
 	<!--main-nav-end-->
 
 	<header class="header" id="header">
-		<!--header-start-->
+	<!--header-start-->
 		<div class="container">
 			<h1 class="animated fadeInDown delay-07s">Welcome To My Repository</h1>
 			<figure class="logo animated fadeInDown delay-07s">
 				<a href="#"><img src="img/logo.png" alt=""></a>
 			</figure>
 			<ul class="we-create animated fadeInUp delay-1s">
-				<li>Contained herein is a collection of useful Jailbreak 'Tweaks' for my own personal use.</li>
+				<li>A collection of useful Jailbreak 'Tweaks' for my own personal use.</li>
 			</ul>
-			<a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a>
+			<a class="link animated fadeInUp delay-1s servicelink" href="#service">Let's Begin</a>
 		</div>
 	</header>
 	<!--header-end-->
 	
 	<section class="main-section" id="service">
-		<!--main-section-start-->
+	<!--main-section-start-->
 		<div class="container">
 			<h2>Personal Cydia Repository</h2>
 			<h6>by Mr Smith</h6>
@@ -136,20 +131,13 @@
 					<img src="img/iphoneinhand.png" alt="">
 				</figure>
 			</div>
+			<div class="credits">
+				<a><img src="img/small-logo.png"></a>
+				<span class="copyright">&copy; Mr Smith. All Rights Reserved</span>
+			</div
 		</div>
 	</section>
 	<!--main-section-end-->	
-	
-	<footer class="footer">
-		<!--main-section-start-->	
-		<div class="container">
-			<div class="credits">
-				<a href="#"><img src="img/footer-logo.png" alt=""></a>
-			</div>
-			<span class="copyright">&copy; Mr Smith. All Rights Reserved</span>
-		</div>
-	</footer>
-	<!--footer-section-end-->	
 
 	<script type="text/javascript">
 		$(document).ready(function(e) {
