@@ -79,19 +79,15 @@ Homepage: https://mrsmithx.github.io
 Package: com.r333d.cylinder
 Version: 1.0.6
 Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Maintainer: Reed Weichler
 Architecture: iphoneos-arm
-Filename: ./Files//cylinder_1.0.6.deb
-Size: 255488
-Installed-Size: 899
-MD5sum: 1c0eebe91f6e03faea96218dadf8f4cc
-Description: Make your icons dance
-Name: Cylinder
-Author: Reed Weichler <rweichler+cydia@gmail.com>
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
-Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+Filename: ./Files//com.r333d.cylinder_1.0.6_iphoneos-arm.deb
+Size: 255068
+MD5sum: 67d3eefde7e17e762c81c864d4de1770
+Description: Sexy HomeScreen icon animations
+Name: com.r333d.cylinder
+Author: Reed Weichler
+Homepage: https://mrsmithx.github.io
 
 Package: com.unlimapps.uasharedtools
 Version: 2.4r-31k
