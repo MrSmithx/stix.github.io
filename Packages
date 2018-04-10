@@ -167,20 +167,15 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfive
 Package: org.fwdr.sonus
 Version: 3.0.2-3
 Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.9), com.rpetrich.rocketbootstrap (>= 1.0.2)
-Conflicts: io.github.himynameisubik.sonus
+Maintainer: ubik
 Architecture: iphoneos-arm
 Filename: ./Files//org.fwdr.sonus_3.0.2-3_iphoneos-arm.deb
-Size: 113684
-Installed-Size: 846
-MD5sum: 958344bf22345e89e00c037c40fdc3d8
-Description: A better & highly customizable volume hud.
+Size: 113348
+MD5sum: 8fb78d15274ece3bc37c99413971f7e1
+Description: Beautiful Volume HUD Replacement
 Name: Sonus
-Author: ubik <sonus@fwdr.org>
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sonusDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sonusDp
-Icon: file:///Library/PreferenceBundles/SonusPrefs.bundle/Images/Sonus@2x.png
+Author: ubik
+Homepage: https://mrsmithx.github.io
 
 Package: org.thebigboss.blurrybadges
 Version: 1.1
