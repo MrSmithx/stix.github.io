@@ -1,0 +1,9 @@
+Origin: Stix | Private Repository
+Label: Stix | Private Repository
+Suite: stable
+Version: 1.0
+Codename: StixRepo
+Architectures: iphoneos-arm
+Components: main
+Description: Stix | Private Repository
+MD5Sum:
