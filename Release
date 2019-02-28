@@ -1,8 +1,0 @@
-Origin: MrSmith's Private Cydia repo
-Label: MrSmith's Cydia Repo
-Suite: stable
-Version: 1.0
-Codename: MrSmith's RepoRepo
-Architectures: iphoneos-arm
-Components: main
-Description: MrSmith's Private Cydia Repository
