@@ -14,8 +14,6 @@ Section: Tweaks
 Description: Spotify Premium Features
 Author: JulioVerne
 Name: SpotiLife
-
-
 Package: com.betternet.premium
 Version: 1.0
 Architecture: iphoneos-arm
@@ -48,18 +46,19 @@ Description: Remove Ads in YouTube++
 Author: Unknown
 Name: YouTube++ No Ads
 
-Package: com.ytpp.noads
-Version: 1.0
+
+Package: com.springtomize.st4.new
+Version: 4.0.1
 Architecture: iphoneos-arm
 Maintainer: Stix <x_someone@outlook.com.au>
-Installed-Size: 
-Depends: 
+Installed-Size: 3368
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
 Filename: /com.springtomize.st4.new_4.0.1.deb
 Size: 551176
 MD5sum: 05a9e62e4ded25bd42d56bc930f37451
 SHA1: d8d5c5e62891badc0d6dca2b538e2922605b3f7d
 SHA256: cae269d315002cd8cc4029f3846501d4223504c2958cf34c94236bb8a457648b
 Section: Tweaks
-Description: Remove Ads in YouTube++ 
-Author: Unknown
-Name: YouTube++ No Ads
+Description: Customize your device like never before.
+Author: sharedRoutine
+Name: Springtomize 4
