@@ -1,64 +1,121 @@
 
 Package: com.spotilife
+
 Version: 1.0
+
 Architecture: iphoneos-arm
+
 Maintainer: Stix <x_someone@outlook.com.au>
+
 Installed-Size: 
+
 Depends: 
-Filename: /SpotiLife_1.0.deb
+
+Filename: /debs/SpotiLife_1.0.deb
+
 Size: 59324
+
 MD5sum: a9661d761a3394a353b7fb9d40d1e6ad
+
 SHA1: 72e3186bf4730a91e09dc6c8e46cbd76ba4263d4
+
 SHA256: 418c8853a3e93a4b7d47b1664c3fbb48929394b36e338a125ece6dd20211eec5
+
 Section: Tweaks
+
 Description: Spotify Premium Features
+
 Author: JulioVerne
+
 Name: SpotiLife
+
 Package: com.betternet.premium
+
 Version: 1.0
+
 Architecture: iphoneos-arm
+
 Maintainer: Stix <x_someone@outlook.com.au>
+
 Installed-Size: 
+
 Depends: 
-Filename: /Betternet_Premium_1.0.deb
+
+Filename: /debs/Betternet_Premium_1.0.deb
+
 Size: 5664
+
 MD5sum: f8425d1dc51a99748ded3c45e71b469b
+
 SHA1: db91b14b720c509d5d9397e5b1126329c0014733
+
 SHA256: e99252b296e6e2d179538e9aab851188736bdb31af8ef1ef392e5a9d9ffb6135
+
 Section: Tweaks
+
 Description: Betternet Premium Features
+
 Author: Unknown
+
 Name: Betternet Premium
 
+
 Package: com.ytpp.noads
+
 Version: 1.0
+
 Architecture: iphoneos-arm
+
 Maintainer: Stix <x_someone@outlook.com.au>
+
 Installed-Size: 
+
 Depends: 
-Filename: /No_Ads_YouTube++.deb
+
+Filename: /debs/No_Ads_YouTube++.deb
+
 Size: 5308
+
 MD5sum: 0f43183ac2b5b1a002afd7557be42354
+
 SHA1: cefcbdf2f61e0c2e6642a8e1cf5758268a24a841
+
 SHA256: e99ef1af175277970ccd74ce52100094a0e569c3a760be62e51d8dfe7914c3a9
+
 Section: Tweaks
+
 Description: Remove Ads in YouTube++ 
+
 Author: Unknown
+
 Name: YouTube++ No Ads
 
 
+
 Package: com.springtomize.st4.new
+
 Version: 4.0.1
 Architecture: iphoneos-arm
+
 Maintainer: Stix <x_someone@outlook.com.au>
+
 Installed-Size: 3368
+
 Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Filename: /com.springtomize.st4.new_4.0.1.deb
+
+Filename: /debs/com.springtomize.st4.new_4.0.1.deb
+
 Size: 551176
+
 MD5sum: 05a9e62e4ded25bd42d56bc930f37451
+
 SHA1: d8d5c5e62891badc0d6dca2b538e2922605b3f7d
 SHA256: cae269d315002cd8cc4029f3846501d4223504c2958cf34c94236bb8a457648b
+
 Section: Tweaks
+
 Description: Customize your device like never before.
+
 Author: sharedRoutine
+
 Name: Springtomize 4
