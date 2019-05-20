@@ -5,11 +5,11 @@ Architecture: iphoneos-arm
 Maintainer: Stix <x_someone@outlook.com.au>
 Installed-Size: 3368
 Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Filename: /Springtomize_4.0.1.deb
-Size: 916736
-MD5sum: 89a25e99b7995ec51760b9322b31737d
-SHA1: 91f4f304e684d47a2057cab0974a4e70ac3c160c
-SHA256: acd4ceb1d735b9d9c80b696f854579142a2a44082fe222e6958e28645e729ed7
+Filename: /st4.deb
+Size: 923540
+MD5sum: 7c6a8d2b04630cb8392ac1291fee2425
+SHA1: 4e7fca82de862db00066a63c4f12110936c33072
+SHA256: 7d5b4982fe0400da766050cadddd3238da144ab5193e8a038d2873f637bd73be
 Section: Tweaks
 Description: Customize your device like never before.
 Author: sharedRoutine
@@ -21,11 +21,11 @@ Architecture: iphoneos-arm
 Maintainer: Stix <x_someone@outlook.com.au>
 Installed-Size: 3368
 Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Filename: /Springtomize_4.0.1.deb
-Size: 916736
-MD5sum: 89a25e99b7995ec51760b9322b31737d
-SHA1: 91f4f304e684d47a2057cab0974a4e70ac3c160c
-SHA256: acd4ceb1d735b9d9c80b696f854579142a2a44082fe222e6958e28645e729ed7
+Filename: /st4.deb
+Size: 923540
+MD5sum: 7c6a8d2b04630cb8392ac1291fee2425
+SHA1: 4e7fca82de862db00066a63c4f12110936c33072
+SHA256: 7d5b4982fe0400da766050cadddd3238da144ab5193e8a038d2873f637bd73be
 Section: Tweaks
 Description: Customize your device like never before.
 Author: sharedRoutine
