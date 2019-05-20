@@ -62,3 +62,19 @@ Section: Tweaks
 Description: Spotify Premium Feature [Excl. Downloads]
 Author: Julio Verne
 Name: SpotiLife
+
+Package: es.ubikstyl.sonus12
+Version: 1.2.0-1
+Architecture: iphoneos-arm
+Maintainer: Stix <x.someone@outlook.com.au>
+Installed-Size: 
+Depends: 
+Filename: /sonus12_1.2.0-1k.deb
+Size: 124912
+MD5sum: 5cfb45cb16737b582f1db769b11cf9f3
+SHA1: 4c23ef60683fe95740fa46c718f12ef402e6b8f9
+SHA256: af4b75a3ee0f9097ac570178e4a5fb50c25e0b5115dce8242d19ddf63839c447
+Section: Tweaks
+Description: An awesome mobile substrate tweak
+Author: ubik
+Name: Sonus12
