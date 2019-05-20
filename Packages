@@ -41,3 +41,19 @@ Section: Tweaks
 Description: Customize your device like never before.
 Author: sharedRoutine
 Name: Springtomize 4
+
+Package: com.springtomize.st4
+Version: 4.0.1
+Architecture: iphoneos-arm
+Maintainer: Stix <x_someone@outlook.com.au>
+Installed-Size: 3368
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: /Springtomize_4.0.1.deb
+Size: 916736
+MD5sum: 08c05177e9362211dc0249303d8cab40
+SHA1: c8d4b20820da7bb8937456ce1d95141cc2c22dab
+SHA256: 3e59416cb8f49f7548b07861840c5f4702ec2d43bbcbbf2896d18107773b5e79
+Section: Tweaks
+Description: Customize your device like never before.
+Author: sharedRoutine
+Name: Springtomize 4
