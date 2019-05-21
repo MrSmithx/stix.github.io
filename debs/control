@@ -1,8 +1,11 @@
-Package: com.betternetpremium
-Name: Betternet Premium
-Version: 1.0.0
+Package: com.springtomize.st4.new
+Name: Springtomize 4
+Version: 4.0.1
 Architecture: iphoneos-arm
-Description: Betternet VPN v4.1.0 Premium Features.
-Maintainer: MrSmithx <someone@somewhere.com>
-Author: MrSmithx
+Description: Customize your device like never before.
+Maintainer: Someone <someone@somewhere.com>
+Author: sharedRoutine
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Replaces: com.springtomize.st4
+Installed-Size: 3368
 Section: Tweaks
