@@ -1,6 +1,6 @@
 
 Package: com.springtomize.st4.new
-Version: 4.0.1
+Version: 4.0.1x
 Architecture: iphoneos-arm
 Maintainer: Stix <x_someone@outlook.com.au>
 Installed-Size: 3368
@@ -64,7 +64,7 @@ Author: Julio Verne
 Name: SpotiLife
 
 Package: es.ubikstyl.sonus12
-Version: 1.2.0-1k
+Version: 1.2.0-1x
 Architecture: iphoneos-arm
 Maintainer: Stix <x.someone@outlook.com.au>
 Installed-Size: 
@@ -75,6 +75,6 @@ MD5sum: 5cfb45cb16737b582f1db769b11cf9f3
 SHA1: 4c23ef60683fe95740fa46c718f12ef402e6b8f9
 SHA256: af4b75a3ee0f9097ac570178e4a5fb50c25e0b5115dce8242d19ddf63839c447
 Section: Tweaks
-Description: An awesome mobile substrate tweak
+Description: The highly customizable volume hud.
 Author: ubik
 Name: Sonus12
