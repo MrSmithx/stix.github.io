@@ -34,9 +34,8 @@ Package: com.betternetpremium
 Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
-Installed-Size: Installed-Size:
-Depends: Depends:
-Filename: /BetternetPremium.deb
+Installed-Size: 
+Depends: Filename: /BetternetPremium.deb
 Size: 5008
 MD5sum: 91ef729a7d4e8b585ad933f233ca7931
 SHA1: c502d9cccf8efb35951b6ab2dc6a9dee27a03415
