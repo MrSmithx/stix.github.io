@@ -18,8 +18,8 @@ Package: com.spotilife
 Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
-Installed-Size: Installed-Size:
-Depends: Depends:
+Installed-Size: 
+Depends: 
 Filename: /Spotilife_1.0.deb
 Size: 58780
 MD5sum: e57ef5823fe155891e01eb67854bcb02
