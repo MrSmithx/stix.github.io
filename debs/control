@@ -1,8 +1,8 @@
-Package: com.spotilife
-Name: SpotiLife
+Package: com.betternetpremium
+Name: Betternet Premium
 Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Spotify Premium Feautures [No Downloads].
+Description: Betternet VPN v4.1.0 Premium Features.
 Maintainer: MrSmithx <someone@somewhere.com>
 Author: MrSmithx
 Section: Tweaks
