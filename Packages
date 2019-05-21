@@ -30,3 +30,19 @@ Section: Tweaks
 Description: Spotify Premium Features [No Download]
 Author: MrSmithx
 Name: Spotilife
+
+Package: es.ubikstyl.sonus12
+Version: 1.2.0-1x
+Architecture: iphone-arm
+Maintainer: MrSmithx <x.someone@outlook.com.au>
+Installed-Size: 668
+Depends: 
+Filename: /Sonus12.deb
+Size: 76044
+MD5sum: 224fac678e4d0db3528c9fad8a27c726
+SHA1: 4d2b969108e2e6c7832dce0075797d48258512f6
+SHA256: 3368a2a6658ca53465a302b018ea1e29a6a00ddac0e9a9577475502b5cb5de94
+Section: Tweaks
+Description: The highly customizable volume HUD.
+Author: ubik <cydia@ubikstyl.es>
+Name: Sonus12
