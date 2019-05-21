@@ -1,0 +1,8 @@
+Package: com.noadsytpp
+Name: YouTube++ [No Ads]
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: No Ads in YouTube++.
+Maintainer: MrSmithx <someone@somewhere.com>
+Author: MrSmithx
+Section: Tweaks
