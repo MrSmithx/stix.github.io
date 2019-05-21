@@ -1,0 +1,16 @@
+
+Package: com.ytpp.noads
+Version: 1.0
+Architecture: iphone-arm
+Maintainer: MrSmithx <x.someone@outlook.com.au>
+Installed-Size: 
+Depends: 
+Filename: /NoAds_Youtube++.deb
+Size: 4932
+MD5sum: b63c58d63086a3ce6b1849381a912332
+SHA1: 5a8814d29599ade62a9a03e747a7f5fabca7c9d4
+SHA256: e1236ad9c8292b407693b4edb857618fd24f27041a0588baf101eee5ff323452
+Section: Tweaks
+Description: Remove Ads from Youtube++
+Author: MrSmithx
+Name: Youtube++ [No Ads]
