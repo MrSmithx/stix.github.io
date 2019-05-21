@@ -31,18 +31,34 @@ Description: Spotify Premium Features [No Download]
 Author: MrSmithx
 Name: Spotilife
 
-Package: es.ubikstyl.sonus12
-Version: 1.2.0-1x
+Package: com.betternet.premium
+Version: 1.0
 Architecture: iphone-arm
 Maintainer: MrSmithx <x.someone@outlook.com.au>
-Installed-Size: 668
+Installed-Size: 
 Depends: 
-Filename: /Sonus12.deb
-Size: 76044
-MD5sum: 224fac678e4d0db3528c9fad8a27c726
-SHA1: 4d2b969108e2e6c7832dce0075797d48258512f6
-SHA256: 3368a2a6658ca53465a302b018ea1e29a6a00ddac0e9a9577475502b5cb5de94
+Filename: /BetternetPremium.deb
+Size: 5008
+MD5sum: 91ef729a7d4e8b585ad933f233ca7931
+SHA1: c502d9cccf8efb35951b6ab2dc6a9dee27a03415
+SHA256: 960b49a0f47a8786b31f4a51a41b46c982aa19a1e01d84c3cc39ecb6b7cf6521
 Section: Tweaks
-Description: The highly customizable volume HUD.
-Author: ubik <cydia@ubikstyl.es>
-Name: Sonus12
+Description: Betternet Premium Features
+Author: MrSmithx
+Name: Betternet Premium
+
+Package: com.springtomize.st4.new
+Version: 4.0.1
+Architecture: iphone-arm
+Maintainer: MrSmithx <x.someone@outlook.com.au>
+Installed-Size: 3368
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: /Springtomize4.deb
+Size: 550368
+MD5sum: 4d89ba08628d8bcf59fc80d732fca49e
+SHA1: 77e2f1b7c45f7e91b77bc32d2fabcc8357911a26
+SHA256: 2db84731dafcc13c28284eaa731e6039d937f5a90ca2da47daf18a593208ed95
+Section: Tweaks
+Description: Customize your device like never before.
+Author: sharedRoutine
+Name: Springtomize 4
