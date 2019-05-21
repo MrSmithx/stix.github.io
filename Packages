@@ -5,7 +5,7 @@ Architecture: iphone-arm
 Maintainer: MrSmithx <x.someone@outlook.com.au>
 Installed-Size: 
 Depends: 
-Filename: /NoAds_YoutubePP.deb
+Filename: /debs/NoAds_YoutubePP.deb
 Size: 4932
 MD5sum: b63c58d63086a3ce6b1849381a912332
 SHA1: 5a8814d29599ade62a9a03e747a7f5fabca7c9d4
@@ -21,7 +21,7 @@ Architecture: iphone-arm
 Maintainer: MrSmithx <x.someone@outlook.com.au>
 Installed-Size: 
 Depends: 
-Filename: /Spotilife_1.0.deb
+Filename: /debs/Spotilife_1.0.deb
 Size: 58780
 MD5sum: e57ef5823fe155891e01eb67854bcb02
 SHA1: 7a9799b50e7185fa8ff7bf27dd0794ee9b75558f
@@ -37,7 +37,7 @@ Architecture: iphone-arm
 Maintainer: MrSmithx <x.someone@outlook.com.au>
 Installed-Size: 
 Depends: 
-Filename: /BetternetPremium.deb
+Filename: /debs/BetternetPremium.deb
 Size: 5008
 MD5sum: 91ef729a7d4e8b585ad933f233ca7931
 SHA1: c502d9cccf8efb35951b6ab2dc6a9dee27a03415
@@ -53,7 +53,7 @@ Architecture: iphone-arm
 Maintainer: MrSmithx <x.someone@outlook.com.au>
 Installed-Size: 3368
 Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Filename: /Springtomize4.deb
+Filename: /debs/Springtomize4.deb
 Size: 550368
 MD5sum: 4d89ba08628d8bcf59fc80d732fca49e
 SHA1: 77e2f1b7c45f7e91b77bc32d2fabcc8357911a26
