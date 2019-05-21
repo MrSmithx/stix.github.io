@@ -14,3 +14,19 @@ Section: Tweaks
 Description: Remove Ads from Youtube++
 Author: MrSmithx
 Name: Youtube++ [No Ads]
+
+Package: com.spotilife
+Version: 1.0
+Architecture: iphone-arm
+Maintainer: MrSmithx <x.someone@outlook.com.au>
+Installed-Size: 
+Depends: 
+Filename: /Spotilife_1.0.deb
+Size: 58780
+MD5sum: e57ef5823fe155891e01eb67854bcb02
+SHA1: 7a9799b50e7185fa8ff7bf27dd0794ee9b75558f
+SHA256: d543b0c27d160606bea929eaecf564ac0acfa30a935dce2cfec06e565434032a
+Section: Tweaks
+Description: Spotify Premium Features [No Download]
+Author: MrSmithx
+Name: Spotilife
