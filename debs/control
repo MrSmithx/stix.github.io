@@ -1,8 +1,8 @@
-Package: com.noadsytpp
-Name: YouTube++ [No Ads]
+Package: com.spotilife
+Name: SpotiLife
 Version: 1.0.0
 Architecture: iphoneos-arm
-Description: No Ads in YouTube++.
+Description: Spotify Premium Feautures [No Downloads].
 Maintainer: MrSmithx <someone@somewhere.com>
 Author: MrSmithx
 Section: Tweaks
