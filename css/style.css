@@ -8,7 +8,7 @@ a,button {
 }
 
 html {
-  background:#efeff4
+  background:#FFFFFF /*#efeff4*/
 }
 
 html .depiction {
@@ -100,7 +100,7 @@ ul:after,ul:before {
   content:"";
   display:block;
   height:1px;
-  background:#c8c7cc
+  background:#efeff4 /*#c8c7cc*/
 }
 
 @media (min-width:708px) {
