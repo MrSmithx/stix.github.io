@@ -20,10 +20,6 @@ body {
   margin:80px 0 35px
 }
 
-.cydia body {
-  margin-top:35px
-}
-
 .depiction body {
   margin-top:0;
   margin-bottom:0
@@ -33,13 +29,13 @@ body {
 #content {
   width:708px;
   margin:0 auto
-}
+  }
 }
 
 @media (min-width:964px) {
 #content {
   width:964px
-}
+  }
 }
 
 body>p,h2,header .date,p[class="footer"] {
@@ -53,7 +49,7 @@ body>p,h2,header .date,p[class="footer"] {
 body>p,h2,p[class="footer"] {
   margin-left:0;
   margin-right:0
-}
+  }
 }
 
 h2,header .date {
@@ -93,14 +89,6 @@ body>header h1 {
   font-weight:500
 }
 
-.cydia body>header {
-  display:none
-}
-
-.cydia body>header+p {
-  margin-top:-20px
-}
-
 ul {
   margin:5px 0 35px;
   padding:0;
@@ -118,7 +106,7 @@ ul:after,ul:before {
 @media (min-width:708px) {
 ul:after,ul:before {
   display:none
-}
+  }
 }
 
 ul li {
@@ -131,42 +119,6 @@ ul li:last-child {
   border-bottom:0
 }
 
-ul .button,ul li [role="link"],ul li p {
-  padding:13px 15px;
-  margin:-13px -15px
-}
-
-ul .button+p,ul li [role="link"]+p,ul li p+p {
-  padding-top:0;
-  margin-top:0
-}
-
-ul .button,ul li [role="link"] {
-  display:block;
-  color:#007aff;
-  padding-right:30px;
-  position:relative;
-  z-index:2
-}
-
-ul .button:after,ul li [role="link"]:after {
-  content:"";
-  display:block;
-  background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NSIgaGVpZ2h0PSI5OSI+PHBvbHlnb24gcG9pbnRzPSIzNC43LDQ5LjcgMCw4NC40IDE1LjEsOTkuNSA2NC44LDQ5LjcgNDkuNywzNC43IDE1LjEsMCAwLDE1LjEiIHN0eWxlPSJmaWxsOiNjN2M3Y2MiLz48L3N2Zz4=) 0 0/100% 100%;
-  position:absolute;
-  top:50%;
-  right:15px;
-  width:10px;
-  height:13px;
-  margin-top:-6.5px
-}
-
-ul li>button {
-  font:inherit;
-  width:100%;
-  text-align:left
-}
-
 ul li .pull-in {
   vertical-align:top
 }
@@ -174,7 +126,7 @@ ul li .pull-in {
 @media (max-width:708px) {
 ul li .pull-in {
   margin:-13px -15px
-}
+  }
 }
 
 ul+[class="footer"],ul+p {
@@ -206,7 +158,7 @@ header .date {
 header .date {
   margin-left:0;
   margin-right:0
-}
+  }
 }
 
 footer :first-child {
@@ -225,17 +177,9 @@ footer :last-child {
   margin:0 15px 40px
 }
 
-.cydia #about {
-  display:none
-}
-
-.cydia #open {
-  display:none
-}
-
 @media (min-width:708px) {
 #about {
   margin-left:0;
   margin-right:0
-}
+  }
 }
