@@ -1,7 +1,8 @@
 #!/bin/bash
+BASEDIR=$(dirname "$0")
 
-rm ./Packages.bz2
-find . -name '.DS_Store' -type f -delete
+rm $BASEDIR/Packages.bz2
+find $BASEDIR -name '.DS_Store' -type f -delete
 
-dpkg-scanpackages -m ./pkg > Packages
-bzip2 Packages
+dpkg-scanpackages -m $BASEDIR/pkg > $BASEDIR/Packages
+bzip2 $BASEDIR/Packages
