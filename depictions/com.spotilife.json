@@ -40,6 +40,11 @@
                     "title": "markdown-description"
                 },
                 {
+                    "class": "DepictionButtonView",
+                    "text": "Homepage",
+                    "action": "https://mrsmithx.github.io/"
+                },
+                {
                     "class": "DepictionSeparatorView"
                 },
                 {
