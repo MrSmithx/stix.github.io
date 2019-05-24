@@ -13,7 +13,7 @@
                     "title": "Spotilife"
                 },
                 {
-                    "markdown": "Spotify Premium Features [No Downloads]",
+                    "markdown": "Spotify Premium Features",
                     "class": "DepictionMarkdownView",
                     "useSpacing": true
                 },
