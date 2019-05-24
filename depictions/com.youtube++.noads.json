@@ -40,6 +40,11 @@
                     "title": "markdown-description"
                 },
                 {
+                    "class": "DepictionRatingView",
+                    "rating": "5",
+                    "alignment": "1"
+                },
+                {
                     "class": "DepictionButtonView",
                     "text": "Homepage",
                     "action": "https://mrsmithx.github.io/"
