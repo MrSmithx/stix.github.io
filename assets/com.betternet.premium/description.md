@@ -1,1 +1,1 @@
-Enable Betternet VPN 4.0.1 Premium Features
+Enable Betternet VPN 4.x Premium Features

@@ -13,7 +13,7 @@
                     "title": "Betternet VPN Premium"
                 },
                 {
-                    "markdown": "Betternet VPN 4.0.1 Premium Features",
+                    "markdown": "Betternet VPN 4.x Premium Features",
                     "class": "DepictionMarkdownView",
                     "useSpacing": true
                 },
@@ -34,7 +34,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Enable premium features in Betternet VPN v4.0.1.",
+                    "markdown": "Enable premium features in Betternet VPN v4.x.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
