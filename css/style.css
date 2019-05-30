@@ -8,7 +8,9 @@ a,button {
 }
 
 html {
-  background:#FFFFFF /*#efeff4*/
+  height: 100%;
+  box-sizing: border-box;
+  background:#FFFFFF
 }
 
 html .depiction {
@@ -100,7 +102,7 @@ ul:after,ul:before {
   content:"";
   display:block;
   height:1px;
-  background:#efeff4 /*#c8c7cc*/
+  background:#efeff4
 }
 
 @media (min-width:708px) {
@@ -161,13 +163,23 @@ header .date {
   }
 }
 
-footer :first-child {
+.footer {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+/*footer :first-child {
   margin-top:0
 }
 
 footer :last-child {
   margin-bottom:0
-}
+}*/
 
 .nav a,footer a {
   margin-right:15px
