@@ -1,0 +1,77 @@
+Package: com.betternetpremium
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <someone@somewhere.com>
+Filename: /Users/martyn/Documents/GitHub/MrSmithx.github.io/pkg/com.betternet.premium.deb
+Size: 5056
+MD5sum: 8a116c070744b096a29fa0335e2e896b
+SHA1: 59773682a27482a5530d0905dae3388eefa49f0e
+SHA256: 669e8cc4d19c8355116fe7cb481fd32a76781da969f9e9bb715a2b4ac0da1478
+Section: Tweaks
+Description: Betternet VPN v4.1.0 Premium Features.
+Author: MrSmithx
+Name: Betternet Premium
+Sileodepiction: http://mrsmithx.github.io/depictions/com.betternet.premium.json
+
+Package: com.cercube.crack
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <x.someone@outlook.com.au>
+Depends: mobilesubstrate
+Filename: /Users/martyn/Documents/GitHub/MrSmithx.github.io/pkg/com.cercube.crack.deb
+Size: 20108
+MD5sum: 72b127c07afe716197dd8f579db08039
+SHA1: 51bdc298a5bc729c06fab0ccb84526996537cc0f
+SHA256: 8f854005489fd040c49fdc998fa7db9ecb22f60411286916792fe3922be7cb11
+Section: Tweaks
+Description: No Ads in Cercube for YouTube
+Author: MrSmithx
+Name: Cercube for Youtube [No Ads]
+Sileodepiction: https://mrsmithx.github.io/depictions/com.cercube.crack.json
+
+Package: com.cercube5.crack
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <x_someone@outlook.com.au>
+Depends: mobilesubstrate
+Filename: /Users/martyn/Documents/GitHub/MrSmithx.github.io/pkg/com.cercube5.crack.deb
+Size: 3488
+MD5sum: 44213a5022dee2aa3a1a4484e7df778c
+SHA1: 54762f59a558ffb71d3aea7d6788ae14de20fce9
+SHA256: 27af537d70c450cccb3aa294cab0617f01fdb34a4ffaf9367b31d5ec99275891
+Section: Tweaks
+Description: No Ads on Cercube 5 for YouTube.
+Author: MrSmithx
+Name: Cercube 5 for YouTube [No Ads]
+Sileodepiction: https://mrsmithx.github.io/depictions/com.cercube5.crack.json
+
+Package: com.noadsytpp
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <someone@somewhere.com>
+Filename: /Users/martyn/Documents/GitHub/MrSmithx.github.io/pkg/com.youtube++.noads.deb
+Size: 4688
+MD5sum: 3306a29543ee4a985c683f04868a4717
+SHA1: c0655d33daef13723e2c96f10c3a41d3af8c0d77
+SHA256: fd5cd4fa9dcc3e6cf612f5e4295ce875e33ac16ead7f25758a5f1f8b23ef95ee
+Section: Tweaks
+Description: No Ads in YouTube++.
+Author: MrSmithx
+Name: YouTube++ [No Ads]
+Sileodepiction: https://mrsmithx.github.io/depictions/com.youtube++.noads.json
+
+Package: com.spotilife
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <someone@somewhere.com>
+Filename: /Users/martyn/Documents/GitHub/MrSmithx.github.io/pkg/com.spotilife.deb
+Size: 58824
+MD5sum: 6e783f63359bd62fb0e59472f9baa6eb
+SHA1: 9c3ae831013bfbcb35d33159b2ea5257860eea1c
+SHA256: d15935445de5520df55bf19fa8ed4ca6cb171fd4957598d4e09a82798bae48fe
+Section: Tweaks
+Description: Spotify Premium Feautures [No Downloads].
+Author: MrSmithx
+Name: SpotiLife
+Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
+
