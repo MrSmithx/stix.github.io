@@ -35,14 +35,14 @@ Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Filename: pkg/com.unlimapps.ytplus.deb
-Size: 4662668
-MD5sum: 813be13ae6921d8e7a6bebf377d325db
-SHA1: 88b085c6e52921920f68914c52bb48e2edc40b06
-SHA256: 4056cfb9d42ffa8712b1de4290638841fde4e2a7af1557cf6946d0fbb758ccd9
+Size: 4662664
+MD5sum: 166c97e7ceace740b66235f3cb0cf1fe
+SHA1: 50410e7f84cc6c34da5519032f0433c2d12f6574
+SHA256: 66f1a6b88b5500236529de062d1e8f24c15ce0a10c93feef86228287402c1ca0
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube
 Author: UnlimApps Inc <support@unlimapps.com>
 Name: YT ++ for YouTube
-Sileodepiction: https://mrsmithx.github.io/depictions/YouTube++_1.4r-96.json
+Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
 
