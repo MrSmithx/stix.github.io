@@ -29,20 +29,20 @@ Name: SpotiLife
 Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
 
 Package: com.unlimapps.ytplus
-Version: 1.4r-96-1
+Version: 1.4r-96
 Architecture: iphoneos-arm
 Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
-Filename: pkg/YouTube++_1.4r-96.deb
-Size: 4664432
-MD5sum: 4f1b8d950985f55a04d7c66136550b31
-SHA1: 80ddc4c37e88bab802de53ae9416e03a73a5c937
-SHA256: 5147f539ce103828bbbb37522c3c5ba7382c81b012814b7681e3e9c6e8ef6e21
+Filename: pkg/com.unlimapps.ytplus.deb
+Size: 4662668
+MD5sum: 813be13ae6921d8e7a6bebf377d325db
+SHA1: 88b085c6e52921920f68914c52bb48e2edc40b06
+SHA256: 4056cfb9d42ffa8712b1de4290638841fde4e2a7af1557cf6946d0fbb758ccd9
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube
-Tag: purpose::extension, role::enduser
 Author: UnlimApps Inc <support@unlimapps.com>
 Name: YT ++ for YouTube
+Sileodepiction: https://mrsmithx.github.io/depictions/YouTube++_1.4r-96.json
 
