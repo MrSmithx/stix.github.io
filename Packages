@@ -3,10 +3,10 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
 Filename: pkg/com.betternet.premium.deb
-Size: 5056
-MD5sum: 8a116c070744b096a29fa0335e2e896b
-SHA1: 59773682a27482a5530d0905dae3388eefa49f0e
-SHA256: 669e8cc4d19c8355116fe7cb481fd32a76781da969f9e9bb715a2b4ac0da1478
+Size: 5140
+MD5sum: 14d1f4434256f500fc987c7c4cef1848
+SHA1: f494d8b45214483a4a08c6af1656ba4482b2d269
+SHA256: 53f00c317b29b28cf8285ed9d6e2af129575b6c5170ee4329aae3a9529e52173
 Section: Tweaks
 Description: Betternet VPN v4.1.0 Premium Features.
 Author: MrSmithx
@@ -18,10 +18,10 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
 Filename: pkg/com.spotilife.deb
-Size: 58824
-MD5sum: 6e783f63359bd62fb0e59472f9baa6eb
-SHA1: 9c3ae831013bfbcb35d33159b2ea5257860eea1c
-SHA256: d15935445de5520df55bf19fa8ed4ca6cb171fd4957598d4e09a82798bae48fe
+Size: 58760
+MD5sum: 25138a4c171135275eff7372c748863d
+SHA1: 35ca7d6095d596472d2c0b0dbf0f59becf992dbb
+SHA256: 3c7d95cc84c6baa230bb94594db1edbc78019d8d21a52ba10bcb4c43606b46fe
 Section: Tweaks
 Description: Spotify Premium Feautures [No Downloads].
 Author: MrSmithx
@@ -35,10 +35,10 @@ Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Filename: pkg/com.unlimapps.ytplus.deb
-Size: 4662664
-MD5sum: 166c97e7ceace740b66235f3cb0cf1fe
-SHA1: 50410e7f84cc6c34da5519032f0433c2d12f6574
-SHA256: 66f1a6b88b5500236529de062d1e8f24c15ce0a10c93feef86228287402c1ca0
+Size: 4669168
+MD5sum: fd9e29f03106cf45fff7cbbc91ff8a4a
+SHA1: dfb6af6966da074065a616cc1fadbe38b9cc5ea3
+SHA256: 2efe556c31b9967bd71aeedfb7c40c87c3289b98a60fdf7f68b16ef62a8bbd66
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube
