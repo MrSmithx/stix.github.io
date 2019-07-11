@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
     "tintColor": "#0657bb",
-    "headerImage": "https://mrsmithx.github.io/assets/com.youtube++.noads/banner.png",
+    "headerImage": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/banner.png",
     "tabs": [
         {
             "tabname": "Details",
@@ -10,7 +10,7 @@
                     "useBottomMargin": false,
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
-                    "title": "Youtube++ No Ads Patch"
+                    "title": "Youtube++ for YouTube No Ads Patch"
                 },
                 {
                     "markdown": "Patch to remove Ads from Youtube++",
@@ -27,14 +27,14 @@
                     "itemCornerRadius": 6,
                     "screenshots": [
                         {
-                            "url": "https://mrsmithx.github.io/assets/com.youtube++.noads/icon.png",
+                            "url": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png",
                             "accessibilityText": "Screenshot0"
                         }
                     ]
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Patch to remove Ads from Youtube++",
+                    "markdown": "Patch to remove Ads from Youtube++ for YouTube",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
