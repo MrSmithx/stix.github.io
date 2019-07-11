@@ -28,21 +28,21 @@ Author: MrSmithx
 Name: SpotiLife
 Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
 
-Package: com.unlimapps.ytplus
-Version: 1.4r-96
+Package: com.unlimapps.ytplus.NoAds
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
-Filename: pkg/com.unlimapps.ytplus.deb
-Size: 4669168
-MD5sum: fd9e29f03106cf45fff7cbbc91ff8a4a
-SHA1: dfb6af6966da074065a616cc1fadbe38b9cc5ea3
-SHA256: 2efe556c31b9967bd71aeedfb7c40c87c3289b98a60fdf7f68b16ef62a8bbd66
+Filename: pkg/YouTube++_1.4r-96-1.NoAds.deb
+Size: 4669188
+MD5sum: 48bb023425350ac57240a1a7097c3fc6
+SHA1: 5cf2c827fa124dec13de6719def51487e62afb8f
+SHA256: 62de56f4d3bffbf879143a3c09214f3723bd349fc67b7be18958b847d77bd047
 Section: Tweaks
 Priority: optional
-Description: YouTube++ for YouTube
+Description: YouTube++ for YouTube [No Ads Patch]
 Author: UnlimApps Inc <support@unlimapps.com>
-Name: YT ++ for YouTube
-Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
+Name: YT ++ for YouTube [No Ads Patch]
+Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.NoAds.json
 
