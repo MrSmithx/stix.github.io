@@ -28,21 +28,39 @@ Author: MrSmithx
 Name: SpotiLife
 Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
 
-Package: com.unlimapps.ytplus.NoAds
+Package: com.unlimapps.ytplus
+Version: 1.4r-96-1
+Architecture: iphoneos-arm
+Maintainer: UnlimApps Inc <support@unlimapps.com>
+Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Filename: pkg/com.unlimapps.ytplus.deb
+Size: 4665616
+MD5sum: 0d51c0cd8cc1a4e7f34e01a0994c9071
+SHA1: f89759a3ea8df16d20b95154b52c0c79b6b0d2c8
+SHA256: 9d096dc2b4c675c44da6b76200b631d7278a1a3abba2099281afa85b84d6458b
+Section: Tweaks
+Priority: optional
+Description: YouTube++ for YouTube
+Author: UnlimApps Inc <support@unlimapps.com>
+Name: YT ++ for YouTube
+Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
+
+Package: com.unlimapps.ytplus.noads
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
-Filename: pkg/YouTube++_1.4r-96-1.NoAds.deb
-Size: 4669188
-MD5sum: 48bb023425350ac57240a1a7097c3fc6
-SHA1: 5cf2c827fa124dec13de6719def51487e62afb8f
-SHA256: 62de56f4d3bffbf879143a3c09214f3723bd349fc67b7be18958b847d77bd047
+Filename: pkg/YouTube++_NoAds.deb
+Size: 4884
+MD5sum: b81a4a022b010a8c741f39df50733c72
+SHA1: f480fa5d20d59c39bffb919ba09ac4296ab5b1f9
+SHA256: 00696734056f22ec39da5041b77f73bd77c5814fc5e3c2c15d041d163d867afd
 Section: Tweaks
 Priority: optional
-Description: YouTube++ for YouTube [No Ads Patch]
+Description: YouTube++ for YouTube [No Ads]
 Author: UnlimApps Inc <support@unlimapps.com>
-Name: YT ++ for YouTube [No Ads Patch]
-Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.NoAds.json
+Name: YT ++ for YouTube [No Ads]
+Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.noads.json
 

@@ -1,1 +1,1 @@
-Youtube++ [Patched to remove Ads]
+Youtube++ for Youtube
