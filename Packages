@@ -1,3 +1,21 @@
+Package: com.adgaurd.premium
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: MrSmithx
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: pkg/com.adguard.premium.deb
+Size: 3852
+MD5sum: dd6409eca1967928681c4e4c42d85177
+SHA1: 7c6e5dc9f4970dc204b715ab146b2bff814c8561
+SHA256: f1fd3e996bbe8955dfe3ad3d7615aa941002f50240da40fe6b92a11a08cb8477
+Section: Tweaks
+Homepage: https://mrsmithx.github.io
+Description: AdGaurd Premium Patch
+Author: MrSmithx
+Name: AdGuard Premium Patch
+Sileodepiction: https://mrsmithx.github.io/depictions/com.adguard.premium
+
 Package: com.betternetpremium
 Version: 1.0.0
 Architecture: iphoneos-arm
