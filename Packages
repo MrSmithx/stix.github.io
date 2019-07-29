@@ -1,35 +1,35 @@
 Package: com.adgaurd.premium
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: MrSmithx
+Maintainer: MrSmithx <someone@somewhere.com>
 Installed-Size: 120
 Depends: mobilesubstrate
 Filename: pkg/com.adguard.premium.deb
-Size: 3852
-MD5sum: dd6409eca1967928681c4e4c42d85177
-SHA1: 7c6e5dc9f4970dc204b715ab146b2bff814c8561
-SHA256: f1fd3e996bbe8955dfe3ad3d7615aa941002f50240da40fe6b92a11a08cb8477
+Size: 3880
+MD5sum: 78d7ce913e554e32186d9d3842569b59
+SHA1: e9a200ed692cbba924731f79eff87679949b2527
+SHA256: 2961a1facf200520f3ddb27ba888566b534ceffeb4721e83952d9bc1d9de76e2
 Section: Tweaks
 Homepage: https://mrsmithx.github.io
 Description: AdGaurd Premium Patch
 Author: MrSmithx
 Name: AdGuard Premium Patch
-Sileodepiction: https://mrsmithx.github.io/depictions/com.adguard.premium
+Sileodepiction: https://mrsmithx.github.io/depictions/com.adguard.premium.json
 
-Package: com.betternetpremium
+Package: com.betternet.premium
 Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
 Filename: pkg/com.betternet.premium.deb
-Size: 5140
-MD5sum: 14d1f4434256f500fc987c7c4cef1848
-SHA1: f494d8b45214483a4a08c6af1656ba4482b2d269
-SHA256: 53f00c317b29b28cf8285ed9d6e2af129575b6c5170ee4329aae3a9529e52173
+Size: 5152
+MD5sum: fa576ea443782565942a49985bf3dff4
+SHA1: ffb9a75dcd05dae3fa3606b5765fc1ab81120e30
+SHA256: 1145235b08f22abd0d25f7bd90857ba19d475b76ad3cece17fc630a41aea66e3
 Section: Tweaks
 Description: Betternet VPN v4.1.0 Premium Features.
 Author: MrSmithx
 Name: Betternet Premium
-Sileodepiction: http://mrsmithx.github.io/depictions/com.betternet.premium.json
+Sileodepiction: https://mrsmithx.github.io/depictions/com.betternet.premium.json
 
 Package: com.spotilife
 Version: 1.0.0
