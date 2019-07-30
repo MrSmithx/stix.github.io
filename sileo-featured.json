@@ -1,1 +1,13 @@
-{"class": "FeaturedBannersView", "itemSize": "{263, 148}", "itemCornerRadius": 8, "banners": [{"package": "", "title": "", "url": "https://mrsmithx.github.io/SileoIcon.png", "hideShadow": "false"}]}
+{
+	"class": "FeaturedBannersView",
+	"itemSize": "{296, 148}",
+	"itemCornerRadius": 10,
+	"banners": [
+		{
+			"url": "https://mrsmithx.github.io/assets/com.adguard.premium/banner.png",
+			"title": "AdGaurd Premium Patch",
+			"package": "com.adguard.premium",
+			"hideShadow": false
+		}
+	]
+}
