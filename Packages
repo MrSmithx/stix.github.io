@@ -70,15 +70,15 @@ Architecture: iphoneos-arm
 Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
-Filename: pkg/YouTube++_NoAds.deb
-Size: 4884
-MD5sum: b81a4a022b010a8c741f39df50733c72
-SHA1: f480fa5d20d59c39bffb919ba09ac4296ab5b1f9
-SHA256: 00696734056f22ec39da5041b77f73bd77c5814fc5e3c2c15d041d163d867afd
+Filename: pkg/com.unlimapps.ytplus.noads.deb
+Size: 4892
+MD5sum: cfad662f5e156df6e3a16db31f8ae6d6
+SHA1: 452f47076b6ece0148c221bf8b09c6230454e753
+SHA256: 093d2903cbc5bc177bcb3e0856c418269a3cee519ca05e9bb91aa3d4ea08a2fe
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube [No Ads]
 Author: UnlimApps Inc <support@unlimapps.com>
-Name: YT ++ for YouTube [No Ads]
+Name: YouTube++ for YouTube [No Ads]
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.noads.json
 
