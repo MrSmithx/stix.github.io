@@ -4,9 +4,9 @@
 	"itemCornerRadius": 10,
 	"banners": [
 		{
-			"url": "https://mrsmithx.github.io/assets/com.adguard.premium/banner.png",
-			"title": "AdGaurd Premium Patch",
-			"package": "com.adguard.premium",
+			"url": "https://mrsmithx.github.io/SileoIcon.png",
+			"title": "",
+			"package": "",
 			"hideShadow": false
 		}
 	]
