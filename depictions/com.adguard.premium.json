@@ -88,12 +88,12 @@
                     "class": "DepictionSubheaderView"
                 },
                 {
-                    "markdown": "\t\n\u2022 Update to latest version of NineAnimator.",
+                    "markdown": "\t\n\u2022 Initial Release",
                     "useSpacing": false,
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 4/5/19</small>",
+                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 30/07/2019</small>",
                     "useRawFormat": true,
                     "class": "DepictionMarkdownView"
                 }
