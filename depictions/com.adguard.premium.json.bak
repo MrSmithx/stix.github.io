@@ -13,9 +13,18 @@
                     "title": "AdGuard Premium Patch"
                 },
                 {
-                    "markdown": "AdGuard Premium Features",
-                    "class": "DepictionMarkdownView",
-                    "useSpacing": true
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 160}",
+                    "class": "DepictionImageView",
+                    "itemCornerRadius": 6,
+                    "screenshots": [
+                        {
+                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
+                        }
+                    ]
                 },
                 {
                     "spacing": 8,
@@ -26,10 +35,6 @@
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "screenshots": [
-                        {
-                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
-                            "accessibilityText": "Screenshot0"
-                        },
                         {
                             "url": "https://mrsmithx.github.io/assets/com.adguard.premium/screenshot01.png",
                             "accessibilityText": "Screenshot0"

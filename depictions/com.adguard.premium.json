@@ -17,9 +17,10 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "itemSize": "{160, 160}",
                     "class": "DepictionImageView",
                     "itemCornerRadius": 6,
+                    "height": 160,
+                    "width": 160,
                     "screenshots": [
                         {
                             "url": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
