@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
     "tintColor": "#0657bb",
-    "headerImage": "https://mrsmithx.github.io/assets/com.adguard.premium/banner.png",
+    "headerImage": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/banner.png",
     "tabs": [
         {
             "tabname": "Details",
@@ -10,58 +10,38 @@
                     "useBottomMargin": false,
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
-                    "title": "AdGuard Premium Patch"
+                    "title": "Youtube++ for YouTube No Ads Patch"
                 },
                 {
                     "spacing": 5,
                     "class": "DepictionSpacerView"
                 },
                 {
-					          "URL": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
-					          "width": 160,
-					          "height": 160,
-					          "alignment": 1,
-					          "cornerRadius": 5,
-					          "class": "DepictionImageView"
-					      },
-                {
-                    "spacing": 5,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "useBottomMargin": false,
-                    "markdown": "Enable premium features in AdGuard",
-                    "class": "DepictionMarkdownView",
-                    "useBoldText": true,
-                    "title": "markdown-description"
-                },
-                {
-                    "spacing": 5,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "itemSize": "{350, 350}",
+                    "itemSize": "{160, 160}",
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "screenshots": [
                         {
-                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/screenshot01.png",
-                            "accessibilityText": "Screenshot0"
-                        },
-                        {
-                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/screenshot02.png",
+                            "url": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png",
                             "accessibilityText": "Screenshot0"
                         }
                     ]
                 },
                 {
-                    "class": "DepictionSeparatorView"
+                    "useBottomMargin": false,
+                    "markdown": "Patch to remove Ads from Youtube++ for YouTube",
+                    "class": "DepictionMarkdownView",
+                    "useBoldText": true,
+                    "title": "markdown-description"
                 },
                 {
-					          "title": "Stix | Private Repository",
-					          "action": "https://mrsmithx.github.io/",
-					          "class": "DepictionTableButtonView"
-					      },
+                    "class": "DepictionButtonView",
+                    "text": "Homepage",
+                    "action": "https://mrsmithx.github.io/"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionTableTextView",
                     "text": "1.0.0",

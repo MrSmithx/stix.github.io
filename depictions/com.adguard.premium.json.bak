@@ -55,13 +55,13 @@
                     ]
                 },
                 {
-                    "class": "DepictionSeparatorView"
+                    "class": "DepictionButtonView",
+                    "text": "Homepage",
+                    "action": "https://mrsmithx.github.io/"
                 },
                 {
-					          "title": "Stix | Private Repository",
-					          "action": "https://mrsmithx.github.io/",
-					          "class": "DepictionTableButtonView"
-					      },
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionTableTextView",
                     "text": "1.0.0",

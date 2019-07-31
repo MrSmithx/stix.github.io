@@ -10,7 +10,7 @@
                     "useBottomMargin": false,
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
-                    "title": "Spotilife"
+                    "title": "Spotify Premium Patch"
                 },
                 {
                     "spacing": 5,
@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Enable premium features in Spotify [Excl. offline downloads].",
+                    "markdown": "Enable premium features in Spotify/n[Excl. offline downloads].",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"

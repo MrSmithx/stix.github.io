@@ -13,12 +13,7 @@
                     "title": "Youtube++ for YouTube"
                 },
                 {
-                    "markdown": "Youtube++ for YouTube",
-                    "class": "DepictionMarkdownView",
-                    "useSpacing": true
-                },
-                {
-                    "spacing": 8,
+                    "spacing": 5,
                     "class": "DepictionSpacerView"
                 },
                 {
@@ -40,13 +35,13 @@
                     "title": "markdown-description"
                 },
                 {
-                    "class": "DepictionButtonView",
-                    "text": "Homepage",
-                    "action": "https://mrsmithx.github.io/"
-                },
-                {
                     "class": "DepictionSeparatorView"
                 },
+                {
+					          "title": "Stix | Private Repository",
+					          "action": "https://mrsmithx.github.io/",
+					          "class": "DepictionTableButtonView"
+					      },
                 {
                     "class": "DepictionTableTextView",
                     "text": "1.4r-96-1",
