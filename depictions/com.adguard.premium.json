@@ -27,11 +27,15 @@
                     "itemCornerRadius": 6,
                     "screenshots": [
                         {
+                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/icons.png",
+                            "accessibilityText": "Screenshot0"
+                        },
+                        {
                             "url": "https://mrsmithx.github.io/assets/com.adguard.premium/screenshot01.png",
                             "accessibilityText": "Screenshot0"
                         },
                         {
-                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
+                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/screenshot02.png",
                             "accessibilityText": "Screenshot0"
                         }
                     ]

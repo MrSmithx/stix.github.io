@@ -29,6 +29,10 @@
                         {
                             "url": "https://mrsmithx.github.io/assets/com.spotilife/icon.png",
                             "accessibilityText": "Screenshot0"
+                        },
+                        {
+                            "url": "https://mrsmithx.github.io/assets/com.spotilife/screenshot01.png",
+                            "accessibilityText": "Screenshot0"
                         }
                     ]
                 },
