@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
     "tintColor": "#0657bb",
-    "headerImage": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus/banner.png",
+    "headerImage": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/banner.png",
     "tabs": [
         {
             "tabname": "Details",
@@ -10,10 +10,10 @@
                     "useBottomMargin": false,
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
-                    "title": "Youtube++ for YouTube"
+                    "title": "Youtube++ for YouTube No Ads Patch"
                 },
                 {
-                    "markdown": "Youtube++ for YouTube",
+                    "markdown": "Patch to remove Ads from Youtube++",
                     "class": "DepictionMarkdownView",
                     "useSpacing": true
                 },
@@ -27,14 +27,14 @@
                     "itemCornerRadius": 6,
                     "screenshots": [
                         {
-                            "url": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus/icon.png",
+                            "url": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png",
                             "accessibilityText": "Screenshot0"
                         }
                     ]
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Youtube++ for YouTube",
+                    "markdown": "Patch to remove Ads from Youtube++ for YouTube",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
@@ -49,7 +49,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4r-96-1",
+                    "text": "1.0.0",
                     "title": "Version"
                 },
                 {
@@ -68,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "UnlimApps",
+                    "text": "MrSmithx",
                     "title": "Developer"
                 },
                 {
@@ -82,13 +82,13 @@
             "tabname": "Changelog",
             "views": [
                 {
-                    "title": "1.4r-96-1",
+                    "title": "1.0.0",
                     "useBoldText": true,
                     "useBottomMargin": true,
                     "class": "DepictionSubheaderView"
                 },
                 {
-                    "markdown": "\t\n\u2022 Updated Release",
+                    "markdown": "\t\n\u2022 Initial Release",
                     "useSpacing": false,
                     "class": "DepictionMarkdownView"
                 },
