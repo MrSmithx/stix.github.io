@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
     "tintColor": "#0657bb",
-    "headerImage": "https://mrsmithx.github.io/assets/com.adguard.premium/banner.png",
+    "headerImage": "https://mrsmithx.github.io/assets/com.spotilife/banner.png",
     "tabs": [
         {
             "tabname": "Details",
@@ -10,49 +10,38 @@
                     "useBottomMargin": false,
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
-                    "title": "AdGuard Premium Patch"
+                    "title": "Spotilife"
                 },
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-					          "URL": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
-					          "width": 160,
-					          "height": 160,
-					          "alignment": 1,
-					          "cornerRadius": 5,
-					          "class": "DepictionImageView"
-					      },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "useBottomMargin": false,
-                    "markdown": "Enable premium features in AdGuard",
+                    "markdown": "Spotify Premium Features",
                     "class": "DepictionMarkdownView",
-                    "useBoldText": true,
-                    "title": "markdown-description"
+                    "useSpacing": true
                 },
                 {
-                    "spacing": 5,
+                    "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "itemSize": "{350, 350}",
+                    "itemSize": "{160, 160}",
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "screenshots": [
                         {
-                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/screenshot01.png",
+                            "url": "https://mrsmithx.github.io/assets/com.spotilife/icon.png",
                             "accessibilityText": "Screenshot0"
                         },
                         {
-                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/screenshot02.png",
+                            "url": "https://mrsmithx.github.io/assets/com.spotilife/screenshot01.png",
                             "accessibilityText": "Screenshot0"
                         }
                     ]
+                },
+                {
+                    "useBottomMargin": false,
+                    "markdown": "Enable premium features in Spotify [Excl. offline downloads].",
+                    "class": "DepictionMarkdownView",
+                    "useBoldText": true,
+                    "title": "markdown-description"
                 },
                 {
                     "class": "DepictionButtonView",
@@ -78,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "MrSmithx",
+                    "text": "JulioVerne",
                     "title": "Developer"
                 },
                 {
