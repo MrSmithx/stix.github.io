@@ -13,23 +13,33 @@
                     "title": "Betternet VPN Premium Patch"
                 },
                 {
-                    "markdown": "Betternet VPN 4.x Premium Features",
-                    "class": "DepictionMarkdownView",
-                    "useSpacing": true
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
                 },
+                                {
+					          "URL": "https://mrsmithx.github.io/assets/com.betternet.premium/icon.png",
+					          "width": 160,
+					          "height": 160,
+					          "alignment": 1,
+					          "cornerRadius": 5,
+					          "class": "DepictionImageView"
+					      },
                 {
-                    "spacing": 8,
+                    "spacing": 5,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "itemSize": "{160, 160}",
+                    "useBottomMargin": false,
+                    "markdown": "Enable premium features in Betternet VPN v4.x.",
+                    "class": "DepictionMarkdownView",
+                    "useBoldText": true,
+                    "title": "markdown-description"
+                },
+                {
+                    "itemSize": "{350, 350}",
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "screenshots": [
-                        {
-                            "url": "https://mrsmithx.github.io/assets/com.betternet.premium/icon.png",
-                            "accessibilityText": "Screenshot0"
-                        },
                         {
                             "url": "https://mrsmithx.github.io/assets/com.betternet.premium/screenshot01.png",
                             "accessibilityText": "Screenshot0"
@@ -39,13 +49,6 @@
                             "accessibilityText": "Screenshot0"
                         }
                     ]
-                },
-                {
-                    "useBottomMargin": false,
-                    "markdown": "Enable premium features in Betternet VPN v4.x.",
-                    "class": "DepictionMarkdownView",
-                    "useBoldText": true,
-                    "title": "markdown-description"
                 },
                 {
                     "class": "DepictionButtonView",

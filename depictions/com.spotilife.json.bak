@@ -13,28 +13,20 @@
                     "title": "Spotilife"
                 },
                 {
-                    "markdown": "Spotify Premium Features",
-                    "class": "DepictionMarkdownView",
-                    "useSpacing": true
-                },
-                {
-                    "spacing": 8,
+                    "spacing": 5,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "itemSize": "{160, 160}",
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "screenshots": [
-                        {
-                            "url": "https://mrsmithx.github.io/assets/com.spotilife/icon.png",
-                            "accessibilityText": "Screenshot0"
-                        },
-                        {
-                            "url": "https://mrsmithx.github.io/assets/com.spotilife/screenshot01.png",
-                            "accessibilityText": "Screenshot0"
-                        }
-                    ]
+					          "URL": "https://mrsmithx.github.io/assets/com.spotilife/icon.png",
+					          "width": 160,
+					          "height": 160,
+					          "alignment": 1,
+					          "cornerRadius": 5,
+					          "class": "DepictionImageView"
+					      },
+                {
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
                 },
                 {
                     "useBottomMargin": false,
@@ -42,6 +34,17 @@
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
+                },
+                {
+                    "itemSize": "{350, 350}",
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "screenshots": [
+                        {
+                            "url": "https://mrsmithx.github.io/assets/com.spotilife/screenshot01.png",
+                            "accessibilityText": "Screenshot0"
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionButtonView",
