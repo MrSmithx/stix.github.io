@@ -21,18 +21,14 @@
                     "itemCornerRadius": 6,
                     "height": "160",
                     "width": "160",
-                    "screenshots": [
-                        {
-                            "url": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
-                        }
-                    ]
+                    "url": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
                 },
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "itemSize": "{250, 150}",
+                    "itemSize": "{250, 250}",
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "screenshots": [
