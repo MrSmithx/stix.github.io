@@ -78,6 +78,14 @@
                     "title": "Developer"
                 },
                 {
+					          "URL": "https://mrsmithx.github.io/SileoIcon.png",
+					          "width": 75,
+					          "height": 75,
+					          "alignment": 1,
+					          "cornerRadius": 0,
+					          "class": "DepictionImageView"
+					      },
+                {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 }
