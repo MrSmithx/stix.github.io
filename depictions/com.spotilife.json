@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Enable premium features in Spotify/n[Excl. offline downloads].",
+                    "markdown": "Enable premium features in Spotify\n[Excluding offline downloads]",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
