@@ -53,10 +53,10 @@ Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Filename: pkg/com.unlimapps.ytplus.deb
-Size: 4665616
-MD5sum: 0d51c0cd8cc1a4e7f34e01a0994c9071
-SHA1: f89759a3ea8df16d20b95154b52c0c79b6b0d2c8
-SHA256: 9d096dc2b4c675c44da6b76200b631d7278a1a3abba2099281afa85b84d6458b
+Size: 4667176
+MD5sum: 070232f747d59bfe4ba69a72666605eb
+SHA1: 7a01a648e999967836db452b2da17cd3db98502e
+SHA256: 2a153150530db72c65a43f475cb6de5f5bf9fd7d6772e775c75c3041070538fd
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube
@@ -71,10 +71,10 @@ Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Filename: pkg/com.unlimapps.ytplus.noads.deb
-Size: 4892
-MD5sum: cfad662f5e156df6e3a16db31f8ae6d6
-SHA1: 452f47076b6ece0148c221bf8b09c6230454e753
-SHA256: 093d2903cbc5bc177bcb3e0856c418269a3cee519ca05e9bb91aa3d4ea08a2fe
+Size: 4880
+MD5sum: 7496ad58ec1422a054c779174c3fcac2
+SHA1: 5fef44e1b304ec2252daea2933e767c52c4e08f7
+SHA256: 0a9641d5fbcb84b71541244efb49ee7ae93e877bdaeb08b2ec6ce6125b2c939c
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube [No Ads]
