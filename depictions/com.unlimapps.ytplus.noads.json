@@ -17,15 +17,16 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "itemSize": "{160, 160}",
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "screenshots": [
-                        {
-                            "url": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png",
-                            "accessibilityText": "Screenshot0"
-                        }
-                    ]
+                    "URL": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png",
+                    "width": 160,
+                    "height": 160,
+                    "alignment": 1,
+                    "cornerRadius": 5,
+                    "class": "DepictionImageView"
+                },
+                {
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
                 },
                 {
                     "useBottomMargin": false,
@@ -38,10 +39,10 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-					          "title": "Stix | Private Repository",
-					          "action": "https://mrsmithx.github.io/",
-					          "class": "DepictionTableButtonView"
-					      },
+					"title": "Stix | Private Repository",
+					"action": "https://mrsmithx.github.io/",
+					"class": "DepictionTableButtonView"
+				},
                 {
                     "class": "DepictionTableTextView",
                     "text": "1.0.0",

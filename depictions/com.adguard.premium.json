@@ -17,13 +17,13 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-					          "URL": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
-					          "width": 160,
-					          "height": 160,
-					          "alignment": 1,
-					          "cornerRadius": 5,
-					          "class": "DepictionImageView"
-					      },
+					"URL": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
+					"width": 160,
+					"height": 160,
+					"alignment": 1,
+					"cornerRadius": 5,
+					"class": "DepictionImageView"
+				},
                 {
                     "spacing": 5,
                     "class": "DepictionSpacerView"
