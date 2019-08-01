@@ -5,14 +5,15 @@ Maintainer: MrSmithx <someone@somewhere.com>
 Installed-Size: 120
 Depends: mobilesubstrate
 Filename: pkg/com.adguard.premium.deb
-Size: 3880
-MD5sum: 78d7ce913e554e32186d9d3842569b59
-SHA1: e9a200ed692cbba924731f79eff87679949b2527
-SHA256: 2961a1facf200520f3ddb27ba888566b534ceffeb4721e83952d9bc1d9de76e2
+Size: 3900
+MD5sum: 2f36989137da44af821c8a26bcc73add
+SHA1: d7fd7e14e3ba93d19428f32b2091563ca8ed7b58
+SHA256: b237830ce0113f1106428fc121a8ac1a3b419d26d519ea739f03684de714bfb8
 Section: Tweaks
 Homepage: https://mrsmithx.github.io
 Description: AdGaurd Premium Patch
 Author: MrSmithx
+Icon: https://mrsmithx.github.io/assets/com.adguard.premium/icon.png
 Name: AdGuard Premium Patch
 Sileodepiction: https://mrsmithx.github.io/depictions/com.adguard.premium.json
 
