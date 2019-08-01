@@ -23,12 +23,13 @@ Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
 Filename: pkg/com.betternet.premium.deb
 Size: 5152
-MD5sum: fa576ea443782565942a49985bf3dff4
-SHA1: ffb9a75dcd05dae3fa3606b5765fc1ab81120e30
-SHA256: 1145235b08f22abd0d25f7bd90857ba19d475b76ad3cece17fc630a41aea66e3
+MD5sum: 00967eeafd821139874238457f840fa2
+SHA1: 7f4859ed58789fc29b55962e93f714df7f7a0dda
+SHA256: 3ab96c4c1576d106594e12cc0498a8d62111799dbdf8430ab86e842b529eebdf
 Section: Tweaks
 Description: Betternet VPN v4.1.0 Premium Features.
 Author: MrSmithx
+Icon: https://mrsmithx.github.io/assets/com.betternet.premium/icon.png
 Name: Betternet Premium
 Sileodepiction: https://mrsmithx.github.io/depictions/com.betternet.premium.json
 
@@ -37,13 +38,14 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
 Filename: pkg/com.spotilife.deb
-Size: 58760
-MD5sum: 25138a4c171135275eff7372c748863d
-SHA1: 35ca7d6095d596472d2c0b0dbf0f59becf992dbb
-SHA256: 3c7d95cc84c6baa230bb94594db1edbc78019d8d21a52ba10bcb4c43606b46fe
+Size: 58868
+MD5sum: b1da2111bf51c73fe70691c5000b5733
+SHA1: 4519f8f9cbb1365bd9859ef3d8f1ddee1dc909d6
+SHA256: 5bbb8151cda9af04dbea419e364cf4708c7a0c1253cb22bdf9d1cd03f4d71762
 Section: Tweaks
 Description: Spotify Premium Feautures [No Downloads].
 Author: MrSmithx
+Icon: https://mrsmithx.github.io/assets/com.spotilife/icon.png
 Name: SpotiLife
 Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
 
@@ -54,14 +56,15 @@ Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Filename: pkg/com.unlimapps.ytplus.deb
-Size: 4667176
-MD5sum: 070232f747d59bfe4ba69a72666605eb
-SHA1: 7a01a648e999967836db452b2da17cd3db98502e
-SHA256: 2a153150530db72c65a43f475cb6de5f5bf9fd7d6772e775c75c3041070538fd
+Size: 4667196
+MD5sum: 8cee034156d49bc8d8e6473a9fd60e25
+SHA1: 9585d15e562b08e6d4f88c96a190f426178e164c
+SHA256: 503b95f07089fae287fc049330e80eb14994a4a9ceeef816630a9d78c67f10b6
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube
 Author: UnlimApps Inc <support@unlimapps.com>
+Icon: https://mrsmithx.github.io/assets/com.unlimapps.ytplus/icon.png
 Name: YT ++ for YouTube
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
 
@@ -72,14 +75,15 @@ Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Filename: pkg/com.unlimapps.ytplus.noads.deb
-Size: 4880
-MD5sum: 7496ad58ec1422a054c779174c3fcac2
-SHA1: 5fef44e1b304ec2252daea2933e767c52c4e08f7
-SHA256: 0a9641d5fbcb84b71541244efb49ee7ae93e877bdaeb08b2ec6ce6125b2c939c
+Size: 4900
+MD5sum: e7c6d9aad586f89114d8595cb169208c
+SHA1: 350dc02d43e66fa33a459dff315e510ca4ff902d
+SHA256: c3fb8a0311a1c259a5ca758f330cf9f50cbf8abe43c8c6c644699f7ab1e4b333
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube [No Ads]
 Author: UnlimApps Inc <support@unlimapps.com>
+Icon: https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png
 Name: YouTube++ for YouTube [No Ads]
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.noads.json
 
