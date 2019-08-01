@@ -38,13 +38,13 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
 Filename: pkg/com.spotilife.deb
-Size: 58868
-MD5sum: b1da2111bf51c73fe70691c5000b5733
-SHA1: 4519f8f9cbb1365bd9859ef3d8f1ddee1dc909d6
-SHA256: 5bbb8151cda9af04dbea419e364cf4708c7a0c1253cb22bdf9d1cd03f4d71762
+Size: 58824
+MD5sum: b9c935aba4a49371ed7849399e24b151
+SHA1: 8ba3efadada6c0a1d7ad8ef09a998f455401955d
+SHA256: 964e7f1ee9554e449e7930e52a0598409fec2d4cbac087ad2ed0b7aa0dfa98d1
 Section: Tweaks
-Description: Spotify Premium Feautures [No Downloads].
-Author: MrSmithx
+Description: Spotify Premium Feautures [Excl. Downloads]
+Author: JulioVerne
 Icon: https://mrsmithx.github.io/assets/com.spotilife/icon.png
 Name: SpotiLife
 Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
