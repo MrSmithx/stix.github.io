@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Youtube++ for YouTube.\n\n- Download videos to your device.\n- Block YouTube Ads.\n- Play video/audio in the background.\n- Set video playback speed (0.5x – 2.0x).\n- Auto-replay videos.\n- Disable age restrictions.\n- Forward/Rewind controls with custom duration.\n- Default playback quality.\n- Audio player for downloaded videos.",
+                    "markdown": "<b>Youtube++ for YouTube.</b>\n\n- Download videos to your device.\n- Block YouTube Ads.\n- Play video/audio in the background.\n- Set video playback speed (0.5x – 2.0x).\n- Auto-replay videos.\n- Disable age restrictions.\n- Forward/Rewind controls with custom duration.\n- Default playback quality.\n- Audio player for downloaded videos.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"

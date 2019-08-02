@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Enable premium features in AdGuard.\n\n- Block adverts everywhere.\n- Flexible configuration.\n- Block anything on any website.\n- DNS Privacy.\n- Custom Filters",
+                    "markdown": "<b>Enable premium features in AdGuard.</b>\n\n- Block adverts everywhere.\n- Flexible configuration.\n- Block anything on any website.\n- DNS Privacy.\n- Custom Filters",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"

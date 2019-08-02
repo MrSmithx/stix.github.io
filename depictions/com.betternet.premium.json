@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Enable premium features in Betternet VPN v4.x.\n\n- Connect to global servers of your choice.\n- Get unlimited Bandwidth.\n- Dedicated servers with less traffic for better speed.\n- Use the up to 6 devices simultaneously.",
+                    "markdown": "<b>Enable premium features in Betternet VPN v4.x.</b>\n\n- Connect to global servers of your choice.\n- Get unlimited Bandwidth.\n- Dedicated servers with less traffic for better speed.\n- Use the up to 6 devices simultaneously.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
