@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Patch to remove Ads from Youtube++ for YouTube.\n\nPatch to remove Ads from YouTube++.",
+                    "markdown": "Patch to remove Ads from Youtube++ for YouTube.\n\n- Patch to remove Ads from YouTube++.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"

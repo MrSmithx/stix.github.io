@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Enable premium features in Spotify.<br />[Excluding offline downloads].\n\nPlay any track.\nNo ad interruptions.\nUnlimited skips.\nHigh quality audio.",
+                    "markdown": "<b>Enable premium features in Spotify.</b><br />[Excluding offline downloads].\n\n- Play any track.\n- No ad interruptions.\n- Unlimited skips.\n- High quality audio.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
