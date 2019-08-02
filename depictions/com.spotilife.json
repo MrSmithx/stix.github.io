@@ -17,20 +17,20 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-					          "URL": "https://mrsmithx.github.io/assets/com.spotilife/icon.png",
-					          "width": 160,
-					          "height": 160,
-					          "alignment": 1,
-					          "cornerRadius": 5,
-					          "class": "DepictionImageView"
-					      },
+					"URL": "https://mrsmithx.github.io/assets/com.spotilife/icon.png",
+					"width": 75,
+					"height": 75,
+					"alignment": 1,
+					"cornerRadius": 5,
+					"class": "DepictionImageView"
+				},
                 {
                     "spacing": 5,
                     "class": "DepictionSpacerView"
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Enable premium features in Spotify<br />[Excluding offline downloads]",
+                    "markdown": "Enable premium features in Spotify.<br />[Excluding offline downloads].\n\nPlay any track.\nNo ad interruptions.\nUnlimited skips.\nHigh quality audio.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"

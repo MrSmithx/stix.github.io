@@ -18,8 +18,8 @@
                 },
                 {
                     "URL": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus/icon.png",
-                    "width": 160,
-                    "height": 160,
+                    "width": 75,
+                    "height": 75,
                     "alignment": 1,
                     "cornerRadius": 5,
                     "class": "DepictionImageView"
@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Youtube++ for YouTube",
+                    "markdown": "Youtube++ for YouTube.\n\nDownload videos to your device.\nBlock YouTube Ads.\nPlay video/audio in the background.\nSet video playback speed (0.5x – 2.0x).\nAuto-replay videos.\nDisable age restrictions.\nForward/Rewind controls with custom duration.\nDefault playback quality.\nAudio player for downloaded videos.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
