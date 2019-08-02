@@ -49,22 +49,6 @@ Icon: https://mrsmithx.github.io/assets/com.spotilife/icon.png
 Name: SpotiLife
 Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
 
-Package: com.test
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: MrSmithx <someone@somewhere.com>
-Filename: pkg/com.test.deb
-Size: 58832
-MD5sum: 8cc57854db1ded207d4a6c890042d40d
-SHA1: 3b1b1101bd96edca140f266a2f0e5fd45783f213
-SHA256: 5934d42cb2ec8465864644417e01aadda61905e3aafc3945fcc4e6a0dcb14c71
-Section: Tweaks
-Description: [Test] Spotify Premium Feautures [Excl. Downloads]
-Author: JulioVerne
-Icon: https://mrsmithx.github.io/assets/com.spotilife/icon.png
-Name: [Test] SpotiLife
-Sileodepiction: https://mrsmithx.github.io/depictions/?p=com.test
-
 Package: com.unlimapps.ytplus
 Version: 1.4r-96-1
 Architecture: iphoneos-arm
