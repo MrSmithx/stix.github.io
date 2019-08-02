@@ -18,8 +18,8 @@
                 },
                 {
 					"URL": "https://mrsmithx.github.io/assets/com.adguard.premium/icon.png",
-					"width": 160,
-					"height": 160,
+					"width": 100,
+					"height": 100,
 					"alignment": 1,
 					"cornerRadius": 5,
 					"class": "DepictionImageView"
@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Enable premium features in AdGuard",
+                    "markdown": "Enable premium features in AdGuard\n\n- Block adverts everywhere.\n- Flexible configuration.\n- Block anything on any website.\n- DNS Privacy.\n- Custom Filters",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
