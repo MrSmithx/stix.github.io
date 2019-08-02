@@ -49,6 +49,22 @@ Icon: https://mrsmithx.github.io/assets/com.spotilife/icon.png
 Name: SpotiLife
 Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
 
+Package: com.test
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <someone@somewhere.com>
+Filename: pkg/com.test.deb
+Size: 58832
+MD5sum: 8cc57854db1ded207d4a6c890042d40d
+SHA1: 3b1b1101bd96edca140f266a2f0e5fd45783f213
+SHA256: 5934d42cb2ec8465864644417e01aadda61905e3aafc3945fcc4e6a0dcb14c71
+Section: Tweaks
+Description: [Test] Spotify Premium Feautures [Excl. Downloads]
+Author: JulioVerne
+Icon: https://mrsmithx.github.io/assets/com.spotilife/icon.png
+Name: [Test] SpotiLife
+Sileodepiction: https://mrsmithx.github.io/depictions/?p=com.test
+
 Package: com.unlimapps.ytplus
 Version: 1.4r-96-1
 Architecture: iphoneos-arm
@@ -75,15 +91,15 @@ Maintainer: UnlimApps Inc <support@unlimapps.com>
 Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
 Filename: pkg/com.unlimapps.ytplus.noads.deb
-Size: 4900
-MD5sum: e7c6d9aad586f89114d8595cb169208c
-SHA1: 350dc02d43e66fa33a459dff315e510ca4ff902d
-SHA256: c3fb8a0311a1c259a5ca758f330cf9f50cbf8abe43c8c6c644699f7ab1e4b333
+Size: 4904
+MD5sum: 106c200451c773814dad1a597a13a525
+SHA1: 1446c47cb4a4bbc251dc1170537280b5542f714a
+SHA256: 23eca483d3c72fe157d5affc6ad66b57d1bab5f0802d8b2742ef602b3fbed337
 Section: Tweaks
 Priority: optional
 Description: YouTube++ for YouTube [No Ads]
 Author: UnlimApps Inc <support@unlimapps.com>
 Icon: https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png
-Name: YouTube++ for YouTube [No Ads]
+Name: YT++ for YouTube [No Ads]
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.noads.json
 
