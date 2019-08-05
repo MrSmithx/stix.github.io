@@ -33,6 +33,25 @@ Icon: https://mrsmithx.github.io/assets/com.betternet.premium/icon.png
 Name: Betternet Premium
 Sileodepiction: https://mrsmithx.github.io/depictions/com.betternet.premium.json
 
+Package: com.filzafilemanager
+Version: 3.6.2-1
+Architecture: iphoneos-arm
+Maintainer: TIGI Software <support@tigisoftware.com>
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: pkg/com.filzafilemanager.deb
+Size: 15525148
+MD5sum: ff587f5280e797142c4dde3b64048096
+SHA1: f28018214e6e58d3a264622322bc7920da18cd28
+SHA256: f9785dd49df8f1e4adc1b81e8df83036c2b12601349a572c0c3e537275a043e5
+Section: Tweaks
+Homepage: https://mrsmithx.github.io
+Description: Filza File Manager [64-bit]
+Author: TIGI Software
+Icon: https://mrsmithx.github.io/assets/com.filezafilemanager/icon.png
+Name: Filza File Manager [64-bit]
+Sileodepiction: https://mrsmithx.github.io/depictions/com.filzafilemanager.json
+
 Package: com.spotilife
 Version: 1.0.0
 Architecture: iphoneos-arm

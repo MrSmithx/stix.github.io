@@ -1,0 +1,115 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#0657bb",
+    "headerImage": "https://mrsmithx.github.io/assets/com.filzafilemanager/banner.png",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "title": "TIGI Software Filza File Manager"
+                },
+                {
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
+                },
+                {
+					"URL": "https://mrsmithx.github.io/assets/com.filzafilemanager/icon.png",
+					"width": 75,
+					"height": 75,
+					"alignment": 1,
+					"cornerRadius": 5,
+					"class": "DepictionImageView"
+				},
+                {
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "useBottomMargin": false,
+                    "markdown": "<b>Filza | A Powerful File Manager for iOS.</b>\n\n- Media Player.\n- Hex Editor\n- Text Editor\n- IPA Installer\n- DEB Installer\n- Web Viewer\n - and more.",
+                    "class": "DepictionMarkdownView",
+                    "useBoldText": true,
+                    "title": "markdown-description"
+                },
+                {
+                    "itemSize": "{350, 350}",
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "screenshots": [
+                        {
+                            "url": "https://mrsmithx.github.io/assets/com.filzafilemanager/screenshot01.png",
+                            "accessibilityText": "Screenshot0"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+					          "title": "Stix | Private Repository",
+					          "action": "https://mrsmithx.github.io/",
+					          "class": "DepictionTableButtonView"
+					      },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0.0",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Free Package",
+                    "title": "License"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "TIGI Software",
+                    "title": "Developer"
+                },
+                {
+					          "URL": "https://mrsmithx.github.io/SileoIcon.png",
+					          "width": 75,
+					          "height": 75,
+					          "alignment": 1,
+					          "cornerRadius": 0,
+					          "class": "DepictionImageView"
+					      },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "title": "3.6.4",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Updated for iOS 12",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 30/07/2019</small>",
+                    "useRawFormat": true,
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}
