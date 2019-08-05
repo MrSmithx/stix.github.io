@@ -40,15 +40,15 @@ Maintainer: TIGI Software <support@tigisoftware.com>
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
 Filename: pkg/com.filzafilemanager.deb
-Size: 15525148
-MD5sum: ff587f5280e797142c4dde3b64048096
-SHA1: f28018214e6e58d3a264622322bc7920da18cd28
-SHA256: f9785dd49df8f1e4adc1b81e8df83036c2b12601349a572c0c3e537275a043e5
+Size: 15525964
+MD5sum: d890a7745463d304e5f3535bb3ae52c6
+SHA1: 8cd15e7f3160cc7fb2eb7a573baadc22d7a24d71
+SHA256: a66c75976fba5d38896b13dbf126a10606e9efb675281dfb6d238669c179e498
 Section: Tweaks
 Homepage: https://mrsmithx.github.io
 Description: Filza File Manager [64-bit]
 Author: TIGI Software
-Icon: https://mrsmithx.github.io/assets/com.filezafilemanager/icon.png
+Icon: https://mrsmithx.github.io/assets/com.filzafilemanager/icon.png
 Name: Filza File Manager [64-bit]
 Sileodepiction: https://mrsmithx.github.io/depictions/com.filzafilemanager.json
 
