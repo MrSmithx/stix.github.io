@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "<b>Filza | A Powerful File Manager for iOS.</b>\n\n- Media Player.\n- Hex Editor\n- Text Editor\n- IPA Installer\n- DEB Installer\n- Web Viewer\n - and more.",
+                    "markdown": "<b>Filza | A Powerful File Manager for iOS.</b>\n\n- Media Player, Hex Editor, Text Editor, IPA & DEB Installer, Web Viewer, and more.\n- View Office file including Word, Excel and Powerpoint.\n- Execute shell scripts.\n- Manage iOS music library, import/export/rename/delete.\n- Share files wirelessly.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
