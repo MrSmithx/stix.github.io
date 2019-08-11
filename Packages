@@ -87,3 +87,42 @@ Icon: https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png
 Name: YT++ for YouTube [No Ads]
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.noads.json
 
+Package: me.alfhaily.cercube
+Version: 5.0.6
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <someone@somewhere.com>
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, ru.rejail.adblockplus
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.cercube.lib, com.pulandres.cercubecrack, ru.rejail.cercubecrack
+Filename: pkg/me.alfhaily.cercube.deb
+Size: 9678976
+MD5sum: bdee706488d95b4661b917723fac6b21
+SHA1: 434bbb7738a7d2c0c0f77d219cee553050a4b17f
+SHA256: 1d16065c8432fb1d1f74ce7a4d209ff69527fccaf0b04af58d4bb3b53d181b7c
+Section: Tweaks
+Priority: optional
+Homepage: https://mrsmithx.github.io
+Description: Download YouTube videos and more!
+Author: Majd Alfhaily
+Icon: https://mrsmithx.github.io/assets/me.alfhaily.cercube/icon.png
+Name: Cercube for YouTube
+Sileodepiction: https://mrsmithx.github.io/depictions/me.alfhaily.cercube.json
+
+Package: me.alhaily.adblockforyoutube
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <someone@somewhere.com>
+Depends: firmware (>= 8.0)
+Filename: pkg/me.alfhaily.adblockforyoutube.deb
+Size: 31932
+MD5sum: addf9a2a6b1a51caeff1bda58ea175ea
+SHA1: d09c976c2fb7afedf474d1ef2305289f0a051f34
+SHA256: adf85fe2eb4f617c2bd15343d2cfdbad141cef90b782c5cd8e09bb068f3d07c2
+Section: Tweaks
+Priority: optional
+Homepage: https://mrsmithx.github.io
+Description: Block YouTube Ads and Video Ads
+Author: Majd Alfhaily
+Icon: https://mrsmithx.github.io/assets/me.alfhaily.adblockforyoutube/icon.png
+Name: AdBlock for YouTube
+Sileodepiction: https://mrsmithx.github.io/depictions/me.alfhaily.adblockforyoutube.json
+
