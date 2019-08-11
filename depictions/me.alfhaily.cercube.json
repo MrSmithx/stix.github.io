@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
     "tintColor": "#0657bb",
-    "headerImage": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus/banner.png",
+    "headerImage": "https://mrsmithx.github.io/assets/me.alfhaily.cercube/banner.png",
     "tabs": [
         {
             "tabname": "Details",
@@ -10,14 +10,14 @@
                     "useBottomMargin": false,
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
-                    "title": "Youtube++ for YouTube"
+                    "title": "Cercube for YouTube"
                 },
                 {
                     "spacing": 5,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "URL": "https://mrsmithx.github.io/assets/com.unlimapps.ytplus/icon.png",
+                    "URL": "https://mrsmithx.github.io/assets/me.alfhaily.cercube/icon.png",
                     "width": 75,
                     "height": 75,
                     "alignment": 1,
@@ -30,7 +30,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "<b>Youtube++ for YouTube.</b>\n\n- Download videos to your device.\n- Block YouTube Ads.\n- Play video/audio in the background.\n- Set video playback speed (0.5x – 2.0x).\n- Auto-replay videos.\n- Disable age restrictions.\n- Forward/Rewind controls with custom duration.\n- Default playback quality.\n- Audio player for downloaded videos.",
+                    "markdown": "<b>Cercube for YouTube.</b>\n\n- Save videos up to 4K resolution.\n- Save videos as audio only.\n- Play video/audio in the background.\n- Manage and share downloads to any app.\n- Play YouTube videos using PiP.\n- Block advertisements.\n- Import downloads to Music or Videos.\n- Set default download quality.\n- Set default player quality for WiFi and 3G/4G.",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description"
@@ -45,7 +45,7 @@
 				},
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4r-96-1",
+                    "text": "5.0.7",
                     "title": "Version"
                 },
                 {
@@ -59,7 +59,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "UnlimApps",
+                    "text": "Majd Alfhaily",
                     "title": "Developer"
                 },
                 {
@@ -81,7 +81,7 @@
             "tabname": "Changelog",
             "views": [
                 {
-                    "title": "1.4r-96-1",
+                    "title": "5.0.7",
                     "useBoldText": true,
                     "useBottomMargin": true,
                     "class": "DepictionSubheaderView"
