@@ -1,3 +1,22 @@
+Package: com.adblockplus
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <someone@somewhere.com>
+Installed-Size: 264
+Filename: pkg/com.adblockplus.deb
+Size: 11592
+MD5sum: 0cae34c254764940667af42b86103310
+SHA1: e18c7e63e1502df33d2947330a4c67a6a14c89da
+SHA256: 21d88775d2835d8bf31e719c5849fdda3a14e2bf188eec8da2423b5859db215a
+Section: Tweaks
+Priority: optional
+Homepage: https://mrsmithx.github.io
+Description: Block Ads in ++ Tweaks and Cercube
+Author: MrSmithx
+Icon: https://mrsmithx.github.io/assets/com.adblockplus/icon.png
+Name: AdBlock ++
+Sileodepiction: https://mrsmithx.github.io/depictions/com.adblockplus.json
+
 Package: com.adgaurd.premium
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -91,13 +110,13 @@ Package: me.alfhaily.cercube
 Version: 5.0.6
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
-Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, com.adblockplus
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.cercube.lib, com.pulandres.cercubecrack, ru.rejail.cercubecrack
 Filename: pkg/me.alfhaily.cercube.deb
-Size: 9684112
-MD5sum: 85290878bdc0d92509763c0210d861bc
-SHA1: a2e7a25f59042cdd94fe9b5704a8c058767a938e
-SHA256: bb6284b3f8f6b7b1d0da73361d9b5c6273cd56e1b846dd644e93899655cc964d
+Size: 9678988
+MD5sum: 1f0bcd635d976bc4b3b0806737084412
+SHA1: 22f0cd32572df23f1862de16117a9874c20c0be0
+SHA256: f09297d6f805b459d978fab34069a98dd2beec4824c9e1a2c4aeb9fc0cd47a6b
 Section: Tweaks
 Priority: optional
 Homepage: https://mrsmithx.github.io
