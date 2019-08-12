@@ -91,13 +91,13 @@ Package: me.alfhaily.cercube
 Version: 5.0.6
 Architecture: iphoneos-arm
 Maintainer: MrSmithx <someone@somewhere.com>
-Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, ru.rejail.adblockplus
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.cercube.lib, com.pulandres.cercubecrack, ru.rejail.cercubecrack
 Filename: pkg/me.alfhaily.cercube.deb
-Size: 9678976
-MD5sum: bdee706488d95b4661b917723fac6b21
-SHA1: 434bbb7738a7d2c0c0f77d219cee553050a4b17f
-SHA256: 1d16065c8432fb1d1f74ce7a4d209ff69527fccaf0b04af58d4bb3b53d181b7c
+Size: 9684112
+MD5sum: 85290878bdc0d92509763c0210d861bc
+SHA1: a2e7a25f59042cdd94fe9b5704a8c058767a938e
+SHA256: bb6284b3f8f6b7b1d0da73361d9b5c6273cd56e1b846dd644e93899655cc964d
 Section: Tweaks
 Priority: optional
 Homepage: https://mrsmithx.github.io
