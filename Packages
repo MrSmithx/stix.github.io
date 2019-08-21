@@ -68,25 +68,6 @@ Icon: https://mrsmithx.github.io/assets/com.spotilife/icon.png
 Name: SpotiLife
 Sileodepiction: https://mrsmithx.github.io/depictions/com.spotilife.json
 
-Package: com.unlimapps.ytplus
-Version: 1.4r-96-1
-Architecture: iphoneos-arm
-Maintainer: UnlimApps Inc <support@unlimapps.com>
-Depends: mobilesubstrate, firmware (>= 10.0), com.unlimapps.uasharedtools.nostash
-Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
-Filename: pkg/com.unlimapps.ytplus.deb
-Size: 4667196
-MD5sum: 8cee034156d49bc8d8e6473a9fd60e25
-SHA1: 9585d15e562b08e6d4f88c96a190f426178e164c
-SHA256: 503b95f07089fae287fc049330e80eb14994a4a9ceeef816630a9d78c67f10b6
-Section: Tweaks
-Priority: optional
-Description: YouTube++ for YouTube
-Author: UnlimApps Inc <support@unlimapps.com>
-Icon: https://mrsmithx.github.io/assets/com.unlimapps.ytplus/icon.png
-Name: YT ++ for YouTube
-Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
-
 Package: com.unlimapps.ytplus.noads
 Version: 1.0
 Architecture: iphoneos-arm
@@ -105,6 +86,27 @@ Author: UnlimApps Inc <support@unlimapps.com>
 Icon: https://mrsmithx.github.io/assets/com.unlimapps.ytplus.noads/icon.png
 Name: YT++ for YouTube [No Ads]
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.noads.json
+
+Package: com.unlimapps.ytpp
+Version: 1.4r-97
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Filename: pkg/com.unlimapps.ytpp_1.4r-97.deb
+Size: 4670176
+MD5sum: 7e53f98eb33c725d9ffed01621d96041
+SHA1: e713d68862654b1521489ef6e83a66a8ee3b2904
+SHA256: 2397209131a152ec50fa15fd2aba410c69dd77f416a670ff88f5fa8dd001c130
+Section: Tweaks
+Priority: optional
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Tag: purpose::extension, role::enduser
+Author: UnlimApps Inc <support@unlimapps.com>
+Dev: i4iphones
+Icon: https://mrsmithx.github.io/assets/com.unlimapps.ytplus/icon.png
+Name: YT ++ for YouTube
+Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
 
 Package: me.alfhaily.cercube
 Version: 5.0.6
@@ -125,6 +127,26 @@ Depiction: https://api-v5.cercube.com/depiction/cydia
 Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
 Name: Cercube for YouTube
 Sileodepiction: https://api-v5.cercube.com/depiction/sileo
+
+Package: me.alfhaily.cercube
+Version: 5.0.6
+Architecture: iphoneos-arm
+Maintainer: MrSmithx <someone@somewhere.com>
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, com.adblockplus
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.cercube.lib, com.pulandres.cercubecrack, ru.rejail.cercubecrack
+Filename: pkg/me.alfhaily.cercube.deb
+Size: 9678988
+MD5sum: 1f0bcd635d976bc4b3b0806737084412
+SHA1: 22f0cd32572df23f1862de16117a9874c20c0be0
+SHA256: f09297d6f805b459d978fab34069a98dd2beec4824c9e1a2c4aeb9fc0cd47a6b
+Section: Tweaks
+Priority: optional
+Homepage: https://mrsmithx.github.io
+Description: Download YouTube videos and more!
+Author: Majd Alfhaily
+Icon: https://mrsmithx.github.io/assets/me.alfhaily.cercube/icon.png
+Name: Cercube for YouTube
+Sileodepiction: https://mrsmithx.github.io/depictions/me.alfhaily.cercube.json
 
 Package: me.alhaily.adblockforyoutube
 Version: 1.0.7
