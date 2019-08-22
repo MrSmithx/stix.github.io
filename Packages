@@ -109,16 +109,16 @@ Name: YT ++ for YouTube
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
 
 Package: me.alfhaily.cercube
-Version: 5.0.6
+Version: 5.0.7
 Architecture: iphoneos-arm
 Maintainer: Majd Alfhaily <freemanrepo@me.com>
 Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
-Filename: pkg/me.alfhaily.cercube_5.0.6.deb
-Size: 13733874
-MD5sum: 4c4aa2b46e50112cf67878d0f6648832
-SHA1: 01513ed71736a80c9492e4bb98af8c65e510c17e
-SHA256: 18df79b5f99014e453ea2e6292d005546c5dccf37a499978890368670e47cc7b
+Filename: pkg/me.alfhaily.cercube_5.0.7.deb
+Size: 13736104
+MD5sum: 5999b2ec43249d9dedfa0d2fe53efdc8
+SHA1: 4ded99a1cc15d3323b58674eb13f05336970e279
+SHA256: 5b9383ea0acd5a97dbd76b61d2b9b165115c14943b58b968d4553401807b502a
 Section: Tweaks
 Priority: optional
 Description: Download YouTube videos and more!
@@ -127,26 +127,6 @@ Depiction: https://api-v5.cercube.com/depiction/cydia
 Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
 Name: Cercube for YouTube
 Sileodepiction: https://api-v5.cercube.com/depiction/sileo
-
-Package: me.alfhaily.cercube
-Version: 5.0.6
-Architecture: iphoneos-arm
-Maintainer: MrSmithx <someone@somewhere.com>
-Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, com.adblockplus
-Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.cercube.lib, com.pulandres.cercubecrack, ru.rejail.cercubecrack
-Filename: pkg/me.alfhaily.cercube.deb
-Size: 9678988
-MD5sum: 1f0bcd635d976bc4b3b0806737084412
-SHA1: 22f0cd32572df23f1862de16117a9874c20c0be0
-SHA256: f09297d6f805b459d978fab34069a98dd2beec4824c9e1a2c4aeb9fc0cd47a6b
-Section: Tweaks
-Priority: optional
-Homepage: https://mrsmithx.github.io
-Description: Download YouTube videos and more!
-Author: Majd Alfhaily
-Icon: https://mrsmithx.github.io/assets/me.alfhaily.cercube/icon.png
-Name: Cercube for YouTube
-Sileodepiction: https://mrsmithx.github.io/depictions/me.alfhaily.cercube.json
 
 Package: me.alhaily.adblockforyoutube
 Version: 1.0.7
