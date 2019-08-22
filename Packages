@@ -88,16 +88,16 @@ Name: YT++ for YouTube [No Ads]
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.noads.json
 
 Package: com.unlimapps.ytpp
-Version: 1.4r-97
+Version: 1.4r-100
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-87)
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
-Filename: pkg/com.unlimapps.ytpp_1.4r-97.deb
-Size: 4670176
-MD5sum: 7e53f98eb33c725d9ffed01621d96041
-SHA1: e713d68862654b1521489ef6e83a66a8ee3b2904
-SHA256: 2397209131a152ec50fa15fd2aba410c69dd77f416a670ff88f5fa8dd001c130
+Filename: pkg/com.unlimapps.ytpp_1.4r-100.deb
+Size: 4582624
+MD5sum: 484ec5073f1ad653b455558bfbe46c18
+SHA1: af97ce6e7221d913e68cb1101e56cd538b635065
+SHA256: 23bf9a2c96322fbe2f72017f0368e34433f1883d53f88914c01e32535f47b75c
 Section: Tweaks
 Priority: optional
 Description: Download all YouTube Videos! Continue background playback and much more!!!
