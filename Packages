@@ -116,9 +116,9 @@ Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
 Filename: pkg/me.alfhaily.cercube_5.1.2.deb
 Size: 10449636
-MD5sum: 40fd074b4a9800cf8e9285bf8c7ea3aa
-SHA1: f638aef27dc31076fdead9432191137170772f06
-SHA256: 5d8b7e6fbeb111baac6ac13845ed60d11fc26b57d35471087e4ad1f16388048b
+MD5sum: 871c84a6f4ebec425563800e8e3ec250
+SHA1: b4119741c7e034c38904e4d3364b473e77664580
+SHA256: 04b6841ea2a27c4b86dc1df021478a63e08e82c830da0c45aba05ac0f9dcb595
 Section: Tweaks
 Priority: optional
 Description: Download YouTube videos and more!
