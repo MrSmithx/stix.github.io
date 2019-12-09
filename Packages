@@ -109,16 +109,16 @@ Name: YT ++ for YouTube
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
 
 Package: me.alfhaily.cercube
-Version: 5.0.7
+Version: 5.1.2
 Architecture: iphoneos-arm
 Maintainer: Majd Alfhaily <freemanrepo@me.com>
 Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
-Filename: pkg/me.alfhaily.cercube_5.0.7.deb
-Size: 13736104
-MD5sum: 5999b2ec43249d9dedfa0d2fe53efdc8
-SHA1: 4ded99a1cc15d3323b58674eb13f05336970e279
-SHA256: 5b9383ea0acd5a97dbd76b61d2b9b165115c14943b58b968d4553401807b502a
+Filename: pkg/me.alfhaily.cercube_5.1.2.deb
+Size: 10449636
+MD5sum: 40fd074b4a9800cf8e9285bf8c7ea3aa
+SHA1: f638aef27dc31076fdead9432191137170772f06
+SHA256: 5d8b7e6fbeb111baac6ac13845ed60d11fc26b57d35471087e4ad1f16388048b
 Section: Tweaks
 Priority: optional
 Description: Download YouTube videos and more!
