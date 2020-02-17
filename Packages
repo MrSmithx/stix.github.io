@@ -110,24 +110,24 @@ Name: YT ++ for YouTube
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
 
 Package: me.alfhaily.cercube
-Version: 5.1.2
+Version: 5.1.9
 Architecture: iphoneos-arm
 Maintainer: Majd Alfhaily <freemanrepo@me.com>
 Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
-Filename: pkg/me.alfhaily.cercube_5.1.2.deb
-Size: 10449636
-MD5sum: 871c84a6f4ebec425563800e8e3ec250
-SHA1: b4119741c7e034c38904e4d3364b473e77664580
-SHA256: 04b6841ea2a27c4b86dc1df021478a63e08e82c830da0c45aba05ac0f9dcb595
+Filename: pkg/me.alfhaily.cercube_5.1.9.deb
+Size: 11602570
+MD5sum: f7708b8f0d00e5fcaeae3f341b79aa0a
+SHA1: 7c85915180801faee345e8f35868c5cd521f119c
+SHA256: 63a9b50b9bdfc4b24eca0d089fa617198398c6ce964b22342a158ed9a8b892e0
 Section: Tweaks
 Priority: optional
 Description: Download YouTube videos and more!
 Author: Majd Alfhaily
-Depiction: https://api-v5.cercube.com/depiction/cydia
-Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
+Depiction: https://apt.alfhaily.me/depiction/FDXO5R
+Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
 Name: Cercube for YouTube
-Sileodepiction: https://api-v5.cercube.com/depiction/sileo
+Sileodepiction: https://apt.alfhaily.me/depiction/sileo/FDXO5R
 
 Package: me.alhaily.adblockforyoutube
 Version: 1.0.7
