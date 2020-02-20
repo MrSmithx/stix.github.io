@@ -89,25 +89,23 @@ Name: YT++ for YouTube [No Ads]
 Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.noads.json
 
 Package: com.unlimapps.ytpp
-Version: 1.4r-100
+Version: 1.4r-106
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-87)
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-94)
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
-Filename: pkg/com.unlimapps.ytpp_1.4r-100.deb
-Size: 4582624
-MD5sum: 484ec5073f1ad653b455558bfbe46c18
-SHA1: af97ce6e7221d913e68cb1101e56cd538b635065
-SHA256: 23bf9a2c96322fbe2f72017f0368e34433f1883d53f88914c01e32535f47b75c
+Filename: pkg/com.unlimapps.ytpp_1.4r-106_iphoneos-arm.deb
+Size: 6776442
+MD5sum: 7a1b3897fbcf99aff01b16d8424d0b0e
+SHA1: 5bbb32b099c5267fae8f3995aaa3989a7005a0ef
+SHA256: 2d5d5de59c181574e7cc4fa95db956789a8ffde6401ec17d7ec7a6257def26f2
 Section: Tweaks
 Priority: optional
 Description: Download all YouTube Videos! Continue background playback and much more!!!
 Tag: purpose::extension, role::enduser
 Author: UnlimApps Inc <support@unlimapps.com>
 Dev: i4iphones
-Icon: https://mrsmithx.github.io/assets/com.unlimapps.ytplus/icon.png
 Name: YT ++ for YouTube
-Sileodepiction: https://mrsmithx.github.io/depictions/com.unlimapps.ytplus.json
 
 Package: me.alfhaily.cercube
 Version: 5.1.9
