@@ -1,1 +1,0 @@
-Enable Adguard Premium Features
