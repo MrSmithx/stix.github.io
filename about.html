@@ -17,16 +17,15 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
-
-    <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
 
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
+	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
     
-    <div class="site-wrap" id="home-section">
+  <div class="site-wrap" id="home-section">
 
       <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
@@ -65,8 +64,6 @@
                 </ul>
               </nav>
             </div>
-
-            
           </div>
         </div>
 
@@ -78,16 +75,13 @@
           <div class="row align-items-center">
             <div class="col-md-7 col-xl-10">
               <h1 class="mb-3">About</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.<br>&nbsp;</p>
+              <p>About Leanne Costanzo-Smith... Beautiful and Amazing! Sexy and Wonderful!<br>&nbsp;</p>
               <p><a href="services.html" class="btn btn-primary">Learn More</a></p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-    
 
     <!--<div class="site-section">
       <div class="container">
@@ -187,11 +181,7 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-              <p class="small">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
+              <p class="small"> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https://colorlib.com" target="_blank" >Colorlib</a> </p>
             </div>
           </div>
 
@@ -200,6 +190,25 @@
     </footer>
 
     </div>
+	  
+  <script>
+	var mybutton = document.getElementById("topBtn");
+
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	  } else {
+		mybutton.style.display = "none";
+	  }
+	}
+
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+	</script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.js"></script>
