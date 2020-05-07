@@ -309,7 +309,8 @@ h1, h2, h3, h4, h5,
   .site-footer a {
     color: rgba(255, 255, 255, 0.5); }
     .site-footer a:hover {
-      color: white; }
+      color: white;
+	  text-decoration: underline; }
   .site-footer ul li {
     margin-bottom: 10px; }
   .site-footer .footer-heading {
@@ -498,10 +499,11 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #ffa188; }
+          color: #ffa188; 
+		  text-decoration: underline !important; }
       .site-navbar .site-navigation .site-menu > li.active > a {
     color: #000000 !important;
-}
+	text-decoration: none !important; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -1736,4 +1738,16 @@ h1, h2, h3, h4, h5,
 
 #topBtn:hover {
   background-color: #555;
+}
+
+.zoom {
+	padding: 0px;
+	transition: transform .2s;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	transform: scale(1.1);
 }
