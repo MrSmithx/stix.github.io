@@ -39,14 +39,14 @@
         <div class="site-mobile-menu-body"></div>
       </div>
 
-      <header class="site-navbar site-navbar-target" role="banner">
+      <header class="site-navbar site-navbar-target" role="banner" id="header">
 
         <div class="container">
           <div class="row align-items-center position-relative">
 
             <div class="col-3  col-xl-5">
               <div class="site-logo serif">
-                <a href="index.html"><img src="images/logo.png" style='float: left; height: 85px; width: 85px; margin-right: 5px;'>Leanne Smith<br>Holistic Wellbeing Central Coast</a>
+                <a href="index.html" id="logo-txt"><img src="images/logo.png" class="logo-img" id="logo-img">Leanne Smith<br>Holistic Wellbeing Central Coast</a>
               </div>
             </div>
 
@@ -280,22 +280,35 @@
 	</div>
 
 	<script>
-	var mybutton = document.getElementById("topBtn");
+		var mybutton = document.getElementById("topBtn");
+		var myheader = document.getElementById("header");
+		var mylogoimg = document.getElementById("logo-img");
+		var mylogotxt = document.getElementById("logo-txt");
 
-	window.onscroll = function() {scrollFunction()};
+		window.onscroll = function() {scrollFunction()};
 
-	function scrollFunction() {
-	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		mybutton.style.display = "block";
-	  } else {
-		mybutton.style.display = "none";
-	  }
-	}
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+			myheader.style.height = "90px";
+			mylogoimg.style.height = "60px";
+			mylogoimg.style.width = "60px";
+			mylogotxt.style.fontSize = "16px";
+			mylogotxt.innerHTML = "<img src=\"images/logo.png\" class=\"logo-img\" id=\"logo-img\">Leanne Smith | Holistic Wellbeing Central Coast";
+		  } else {
+			mybutton.style.display = "none";
+			myheader.style.height = "110px";
+			mylogoimg.style.height = "85px";
+			mylogoimg.style.width = "85px";
+			mylogotxt.style.fontSize = "22px";
+			mylogotxt.innerHTML = "<img src=\"images/logo.png\" class=\"logo-img\" id=\"logo-img\">Leanne Smith<br>Holistic Wellbeing Central Coast";
+		  }
+		}
 
-	function topFunction() {
-	  document.body.scrollTop = 0;
-	  document.documentElement.scrollTop = 0;
-	}
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
 	</script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
