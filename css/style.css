@@ -1751,15 +1751,3 @@ h1, h2, h3, h4, h5,
 .zoom:hover {
 	transform: scale(1.1);
 }
-
-#header {
-	transition: 0.2s;
-}
-
-#header .logo-img {
-	float: left;
-	height: 85px; 
-	width: 85px; 
-	margin-right: 5px;
-	transition: 0.2s;
-}
