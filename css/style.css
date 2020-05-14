@@ -228,6 +228,9 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: none; }
+  a:focus {
+	outline:non!important;
+  }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -324,7 +327,8 @@ h1, h2, h3, h4, h5,
   box-shadow: 20px 0 0 #000, -20px 0 0 #000; }
 
 .text-white-opacity-05 {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255, 0.5);
+  }
 
 .text-black-opacity-05 {
   color: rgba(0, 0, 0, 0.5); }
@@ -1644,7 +1648,8 @@ h1, h2, h3, h4, h5,
   height: 50px;
   border-radius: 50%;
   background: rgba(255, 161, 136, 0.2);
-  position: relative; }
+  position: relative;
+  outline:none!important; }
   .social_29128 a span {
     position: absolute;
     top: 50%;
@@ -1750,4 +1755,8 @@ h1, h2, h3, h4, h5,
 
 .zoom:hover {
 	transform: scale(1.1);
+}
+
+:focus {
+	outline:none!important;
 }
