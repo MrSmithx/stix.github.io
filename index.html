@@ -41,9 +41,9 @@
 	<header>
 	<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
 	  <div class="container">
-		<a class="navbar-brand" href="index.html">
-			  <img src="images/logo.png" alt="LogoImage" style="float:left; height: 85px; width: 85px; margin-right: 5px;">Leanne Smith<br>Holistic Wellbeing Central Coast
-			</a>
+		<a class="navbar-brand" href="index.html" id="navbartxt">
+			<img src="images/logo.png" alt="LogoImage" style="float:left; height: 85px; width: 85px; margin-right: 5px;">Leanne Smith<br>Holistic Wellbeing Central Coast
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon"></span>
 			</button>
@@ -295,8 +295,12 @@
 	function scrollFunction() {
 	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 		mybutton.style.display = "block";
+		document.getElementById("navbartxt").style.fontSize = "1.1rem";
+		document.getElementById("navbartxt").style.height = "55px";
 	  } else {
 		mybutton.style.display = "none";
+		document.getElementById("navbartxt").style.fontSize = "1.7rem";
+		document.getElementById("navbartxt").style.height = "100px";
 	  }
 	}
 

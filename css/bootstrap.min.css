@@ -3446,7 +3446,8 @@ input[type="button"].btn-block {
   background-color: #faa4a5;
   opacity: 0.8;
   border-bottom: 2px solid white;
-  border-top: 2px solid white; }
+  border-top: 2px solid white;
+  transition: 0.4s; }
 
   .navbar > .container,
   .navbar > .container-fluid {
@@ -3468,10 +3469,11 @@ input[type="button"].btn-block {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-family: serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: white;
   line-height: inherit;
-  white-space: nowrap; }
+  white-space: nowrap;
+  transition: 0.4s; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none;
 	color: white; }
