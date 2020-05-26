@@ -3367,9 +3367,11 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 20px; }
   .nav-link:hover, .nav-link:focus {
-    text-decoration: none; }
+    text-decoration: underline; }
   .nav-link.disabled {
     color: #6c757d;
     pointer-events: none;
@@ -3440,7 +3442,12 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  background-color: #faa4a5;
+  opacity: 0.8;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white; }
+
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -3460,11 +3467,14 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-family: serif;
+  font-size: 1.5rem;
+  color: white;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none; }
+    text-decoration: none;
+	color: white; }
 
 .navbar-nav {
   display: -webkit-box;
@@ -3487,7 +3497,8 @@ input[type="button"].btn-block {
 .navbar-text {
   display: inline-block;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem; }
+  padding-bottom: 0.5rem;
+  }
 
 .navbar-collapse {
   -ms-flex-preferred-size: 100%;
@@ -4787,7 +4798,8 @@ a.close.disabled {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
-  outline: 0; }
+  outline: 0;
+  top: 80px; }
 
 .modal-backdrop {
   position: fixed;

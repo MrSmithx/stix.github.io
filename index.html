@@ -29,44 +29,48 @@
 
     <div class="site-wrap" id="home-section">
 
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-      </div>
+	<div class="site-mobile-menu site-navbar-target">
+	<div class="site-mobile-menu-header">
+	  <div class="site-mobile-menu-close mt-3">
+		<span class="icon-close2 js-menu-toggle"></span>
+	  </div>
+	</div>
+	<div class="site-mobile-menu-body"></div>
+	</div>
 
-      <header class="site-navbar site-navbar-target" role="banner">
-
-        <div class="container">
-          <div class="row align-items-center position-relative">
-
-            <div class="col-3  col-xl-5">
-              <div class="site-logo serif">
-                <a href="index.html"><img src="images/logo.png" alt="LogoImage" style="float:left; height: 85px; width: 85px; margin-right: 5px;">Leanne Smith<br>Holistic Wellbeing Central Coast</a>
-              </div>
-            </div>
-
-            <div class="col-9  text-right col-xl-6 offset-xl-1">
- 
-              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
-
-              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
-                <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="services.html" class="nav-link">Services</a></li>
-                  <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-				  <li><a href="#" data-toggle="modal" data-target="#contactModal" class="nav-link">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-
-      </header>
+	<header>
+	<nav class="navbar navbar-dark navbar-expand-lg static-top">
+	  <div class="container">
+		<a class="navbar-brand" href="index.html">
+			  <img src="images/logo.png" alt="LogoImage" style="float:left; height: 85px; width: 85px; margin-right: 5px;">Leanne Smith<br>Holistic Wellbeing Central Coast
+			</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+		  <ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+			  <a href="index.html" class="nav-link">Home
+				<span class="sr-only">(current)</span>
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a href="services.html" class="nav-link">Services</a>
+			</li>
+			<li class="nav-item">
+			  <a href="gallery.html" class="nav-link">Gallery</a>
+			</li>
+			<li class="nav-item">
+			  <a href="about.html" class="nav-link">About</a>
+			</li>
+			<li class="nav-item">
+			  <a href="#" data-toggle="modal" data-target="#contactModal" class="nav-link">Contact</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	</header>
 
     <div class="ftco-blocks-cover-1">
       <div class="site-section-cover overlay" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg')">
@@ -182,10 +186,6 @@
 
 		<!-- Modal content-->
 		<div class="modal-content bg-light">
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
-			<h4 class="modal-title">Contact</h4>
-		  </div>
 			<div class="container">
 			  <div class="row justify-content-center text-center">
 				<div class="col-7 text-center mb-5">
@@ -288,14 +288,22 @@
 	</div>
 
 	<script>
-		var mybutton = document.getElementById("topBtn");
+	var mybutton = document.getElementById("topBtn");
 
-		window.onscroll = function() {scrollFunction()};
+	window.onscroll = function() {scrollFunction()};
 
-		function topFunction() {
-		  document.body.scrollTop = 0;
-		  document.documentElement.scrollTop = 0;
-		}
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	  } else {
+		mybutton.style.display = "none";
+	  }
+	}
+
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
 	</script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
