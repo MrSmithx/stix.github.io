@@ -27,7 +27,14 @@
 	  
 	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
 
-    <div class="site-wrap" id="home-section">
+	<!-- <div class="fullscreen-bg">
+		<video autoplay muted loop class="fullscreen-bg__video">
+			<source src="images/SlowSunsetWaves.mp4" type="video/mp4">
+				Your broswer does not support HTML5 video.
+		</video>
+  </div> -->
+
+  <div class="site-wrap" id="home-section">
 
 	<div class="site-mobile-menu site-navbar-target">
 	<div class="site-mobile-menu-header">
@@ -73,7 +80,7 @@
 	</header>
 
     <div class="ftco-blocks-cover-1">
-      <div class="site-section-cover overlay fade-scroll" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg')">
+      <div class="site-section-cover overlay" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg')">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7 col-xl-10">
@@ -88,7 +95,7 @@
       </div>
     </div>
 
-    <div class="site-section fade-scroll">
+    <div class="site-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5 mr-auto">
@@ -120,7 +127,7 @@
       </div>
     </div>
 
-    <div class="site-section bg-light fade-scroll">
+    <div class="site-section bg-light">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -168,8 +175,7 @@
       </div>
     </div>
 		
-		
-    <div class="site-section services_294491 fade-scroll">
+    <div class="site-section services_294491">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
@@ -241,7 +247,7 @@
 	</div>
 	</div>
 
-    <footer class="site-footer bg-image overlay" style="background-image: url('images/hero_1.jpg')">
+    <footer class="site-footer bg-image overlay"style="background-image: url('images/hero_1.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
@@ -311,23 +317,6 @@
 	</script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    	<script type="text/javascript">
-    		$(function() {
-    			var documentEl = $(document),
-    			fadeElem = $('.fade-scroll');
-
-    			documentEl.on('scroll', function() {
-    				var currScrollPos = documentEl.scrollTop();
-
-    				fadeElem.each(function() {
-    					var $this = $(this),
-    					elemOffsetTop = $this.offset().top;
-    					if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/400);
-    				})
-    			})
-    		})
-    	</script>
     <script src="js/jquery-migrate-3.0.0.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
