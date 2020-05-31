@@ -8256,6 +8256,21 @@ h1, h2, h3, h4, h5,
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faa4a5', endColorstr='#faa4a5', GradientType=1 ); }
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 400px !important; }
+.hero-wrap.hero-wrap-3 {
+	height: 550px !important;
+	position: relative; }
+    .hero-wrap.hero-wrap-3 .overlay {
+      width: 100%;
+      height: 550px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+	  opacity: 1; }
+    .hero-wrap.hero-wrap-3 .slider-text {
+      height: 550px !important; }
 
 .slider-text {
   height: 850px;
