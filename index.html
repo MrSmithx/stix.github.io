@@ -67,8 +67,6 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
-    
-    <!-- <div class="hero-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5"> -->
 		
 	<div id="carouselSlides" class="hero-wrap hero-wrap-3 carousel slide" data-ride="carousel" data-wrap="true" data-stellar-background-ratio="0.5">
 		<div class="carousel-inner">
@@ -94,11 +92,11 @@
 				<img src="images/bg_7.jpg" alt="slide">
 			</div>
 
-			<div class="overlay" style="height: 500px"></div>
+			<div class="overlay"></div>
 			<div class="container">
-				<div class="row no-gutters slider-text align-items-center">
+				<div class="row no-gutters slider-text align-items-center p-4">
 					<div class="col-md-9 ftco-animate d-flex align-items-end">
-						<div class="text w-100">
+						<div class="text w-100 p-4 bg-light-home" style="width: 100%">
 							<h2 class="mb-4" style="color: #faa4a5; text-shadow: 0 0 3px #000;">MIND, BODY and SPIRIT</h2>
 							<p class="mb-4" style="text-size: 6px">Most of us live in long periods of being in Flight / Fight response without even knowing it.<br>
 							This has detrimental impacts on our emotional, mental, physical and spiritual wellbeing.<br><br>
@@ -106,12 +104,30 @@
 							<p><a href="services.html" class="btn btn-primary py-3 px-4">FIND OUT MORE</a></p>
 						</div>
 					</div>
-					<!-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
+					<a class="img-video d-flex align-items-center justify-content-center video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/BfdvbZFXbNA" data-target="#ytModal">
+						<span class="fa fa-play"></span></a>
+					<!-- <a href="https://youtu.be/BfdvbZFXbNA" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
 					<span class="fa fa-play"></span></a> -->
 				</div>
 			</div>
 		</div>
 	</div>
+	  
+	<div class="modal fade" id="ytModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>        
+					<!-- 16:9 aspect ratio -->
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe id="ytPlayer" src="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen allowscriptaccess="always"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
 
 	<section class="ftco-section bg-light">
 		<div class="container">
@@ -493,9 +509,33 @@
 	  document.documentElement.scrollTop = 0;
 	}
   </script>
+	  
+
+
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
+	  	  <script>
+		$(document).ready(function() {
+		// Gets the video src from the data-src on each button
+		var $videoSrc;  
+		$('.video-btn').click(function() {
+			$videoSrc = $(this).data( "src" );
+		});
+		console.log($videoSrc);
+		// when the modal is opened autoplay it  
+		$('#ytModal').on('shown.bs.modal', function (e) {
+			// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+			$("#ytPlayer").attr('src',$videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1" ); 
+		})
+		// stop playing the youtube video when I close the modal
+		$('#ytModal').on('hide.bs.modal', function (e) {
+			// a poor man's stop video
+			$("#ytPlayer").attr('src',$videoSrc); 
+		}) 
+		// document ready  
+		});
+	  </script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>

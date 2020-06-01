@@ -8419,6 +8419,11 @@ h1, h2, h3, h4, h5,
 .bg-primary {
   background: #faa4a5; }
 
+.bg-light-home {
+  background: #f5f4f0 !important;
+  opacity: 0.6;
+}
+
 .btn {
   cursor: pointer;
   -webkit-border-radius: 3px;
@@ -9861,4 +9866,24 @@ textarea.form-control {
 	left: 0;
 	right: 0;
 	background: rgba(0,0,0,0.3);
+}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
 }
