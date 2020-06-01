@@ -8300,8 +8300,8 @@ h1, h2, h3, h4, h5,
         transform: translateY(-50%); } }
     @media (max-width: 767.98px) {
       .slider-text .img-video {
-        top: 10px;
-        right: 0; } }
+        bottom: 5px;
+        right: 5px; } }
     .slider-text .img-video span {
       color: #faa4a5;
       font-size: 24px; }
