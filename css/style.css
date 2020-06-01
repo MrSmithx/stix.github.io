@@ -8475,7 +8475,8 @@ h1, h2, h3, h4, h5,
         color: #fff !important; }
 
 .services-wrap {
-  background: #fff; }
+  background: #fff;
+  height: 100%;}
   .services-wrap .img, .services-wrap .text {
     width: 50%; }
   .services-wrap .text {
@@ -8493,6 +8494,15 @@ h1, h2, h3, h4, h5,
     background: #faa4a5; }
     .services-wrap:hover .text h2 {
       color: #fff; }
+@media (max-width: 768px) {
+	.services-wrap {
+		width: 100%; }
+	.services-wrap .img {
+		display: none; }
+	.services-wrap .text {
+		width: 100%;
+	}
+}
 
 .ftco-intro .intro {
   z-index: 0;
