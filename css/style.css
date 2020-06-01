@@ -3474,6 +3474,11 @@ input[type="button"].btn-block {
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: underline; }
+.navbar-brand > img {
+	float:left;
+	height: 85px;
+	width: 85px;
+	margin-right: 5px; }
 
 .navbar-nav {
   display: -webkit-box;
@@ -9877,21 +9882,22 @@ textarea.form-control {
 }
 
 .modal-dialog {
-  max-width: 800px;
-  margin: 30px auto;
-  }
+  	max-width: 1000px;
+  	margin: 30px auto;
+}
 
 .modal-body {
-  position:relative;
-  padding:0px;
+  	position: relative;
+  	padding: 0px;
 }
+
 .close {
-  position:absolute;
-  right:-30px;
-  top:0;
-  z-index:999;
-  font-size:2rem;
-  font-weight: normal;
-  color:#fff;
-  opacity:1;
+  	position: absolute;
+  	right: -30px;
+  	top: 0;
+  	z-index: 999;
+  	font-size: 2rem;
+  	font-weight: normal;
+  	color: #fff;
+  	opacity: 1;
 }
