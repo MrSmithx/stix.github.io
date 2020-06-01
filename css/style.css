@@ -8270,7 +8270,7 @@ h1, h2, h3, h4, h5,
       content: '';
 	  opacity: 1; }
     .hero-wrap.hero-wrap-3 .slider-text {
-      height: 550px !important; }
+      height: 550px !important;}
 
 .slider-text {
   height: 850px;
@@ -8420,8 +8420,8 @@ h1, h2, h3, h4, h5,
   background: #faa4a5; }
 
 .bg-light-home {
-  background: #f5f4f0 !important;
-  opacity: 0.6;
+  background-color: rgba(255,255,255,0.3) !important;
+  padding: 0.5rem !important;
 }
 
 .btn {
@@ -9868,9 +9868,17 @@ textarea.form-control {
 	background: rgba(0,0,0,0.3);
 }
 
+.carousel-item > img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+}
+
 .modal-dialog {
-      max-width: 800px;
-      margin: 30px auto;
+  max-width: 800px;
+  margin: 30px auto;
   }
 
 .modal-body {
