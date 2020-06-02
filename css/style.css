@@ -2053,7 +2053,7 @@ textarea.form-control {
       -o-transition: none;
       transition: none; } }
   .btn:hover {
-    color: #212529;
+    color: black;
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
@@ -2070,24 +2070,23 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff; }
+  background: #faa4a5;
+  borderr: 1px solid #faa4a5; }
   .btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc; }
+    color: black;
+	border: 1px solid #faa4a5; }
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff; }
+    color: black;
+    background-color: #faa4a5;
+    border-color: #faa4a5; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #0062cc;
-    border-color: #005cbf; }
+    color: black;
+    background-color: #faa4a5;
+    border-color: #faa4a5; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
@@ -8440,15 +8439,16 @@ h1, h2, h3, h4, h5,
   font-size: 15px;
   font-weight: 500; }
   .btn:hover, .btn:active, .btn:focus {
+	color: black;
     outline: none; }
   .btn.btn-primary {
-    background: #faa4a5 !important;
-    border: 1px solid #faa4a5 !important;
-    color: #fff !important; }
+    background: #faa4a5;
+    border: 1px solid #faa4a5;
+	  /*color: #fff !important; }*/}
     .btn.btn-primary:hover {
       border: 1px solid #faa4a5;
-      background: transparent;
-      color: #faa4a5; }
+      /*background: transparent;*/
+      color: black; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #faa4a5;
       background: transparent;
@@ -8872,7 +8872,7 @@ textarea.form-control {
     margin: 0 auto; }
     .block-7 .btn-primary:hover, .block-7 .btn-primary:focus {
       background: #faa4a5 !important;
-      color: #fff; }
+      color: black; }
   .block-7:hover, .block-7:focus {
     -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
     -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
