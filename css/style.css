@@ -58,7 +58,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  min-width: 505px; }
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
