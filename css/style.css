@@ -9912,3 +9912,12 @@ textarea.form-control {
   	color: #fff;
   	opacity: 1;
 }
+
+.home-title {
+	color: #faa4a5;
+	text-shadow: 0 0 3px #000;
+}
+
+.home-body {
+	font-size: 18px !important;
+}
