@@ -9892,6 +9892,12 @@ textarea.form-control {
 	min-width: 100%;
 }
 
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
 .modal-dialog {
   	max-width: 1000px;
   	margin: 30px auto;
