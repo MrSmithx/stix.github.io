@@ -9874,10 +9874,6 @@ textarea.form-control {
 	width: 25%;
 }
 
-.carousel.item {
-	position: relative !important;
-}
-
 .light-overlay {
 	position: absolute;
 	top: 0px;
@@ -9888,7 +9884,6 @@ textarea.form-control {
 }
 
 .carousel-item:after {
-	content: "";
 	position: absolute;
 	top: 0;
 	bottom: 0;
