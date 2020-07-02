@@ -9907,7 +9907,7 @@ textarea.form-control {
     background-color: #404040;
 }
 
-.modal-dialog {
+ .modal-dialog {
   	max-width: 1000px;
   	margin: 30px auto;
 }
