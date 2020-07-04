@@ -25,7 +25,7 @@
 				<div class="col-md-6 d-flex align-items-center">
 					<p class="mb-0 phone pl-md-2">
 						<!--<a href="tel://1234567920" class="mr-2"><span class="fa fa-phone mr-1"></span> +61 (0) 1234 56789</a>-->
-						<a href="mailto:info@holisticlee.com.au"><span class="fa fa-paper-plane mr-1"></span> info@holisticlee.com.au</a>
+						<a href="mailto:holistic_lee@hotmail.com"><span class="fa fa-paper-plane mr-1"></span> holistic_lee@hotmail.com</a>
 					</p>
 				</div>
 				<div class="col-md-6 d-flex justify-content-md-end">
@@ -107,7 +107,7 @@
 										<span class="fa fa-paper-plane"></span>
 									</div>
 									<div class="text">
-										<p><span>EMAIL</span> <a href="mailto:info@holisticlee.com.au"><br>info@holisticlee.com.au</a></p>
+										<p><span>EMAIL</span> <a href="mailto:holistic_lee@hotmail.com"><br>holistic_lee@hotmail.com</a></p>
 						  			</div>
 					  			</div>
 							</div>
@@ -117,7 +117,7 @@
 											<span class="fa fa-globe"></span>
 										</div>
 										<div class="text">
-											<p><span>WEBSITE</span> <a href="index.html"><br>http://www.holisticlee.com.au</a></p>
+											<p><span>WEBSITE</span> <a href="index.html"><br>http://www.holisticwellbeing.com.au</a></p>
 										</div>
 									</div>
 								</div>
@@ -125,18 +125,20 @@
 						<div class="row no-gutters">
 							<div class="contact-wrap w-100 p-md-5 p-4">
 								<h3 class="mb-4">CONTACT ME</h3>
-								<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+								<form method="POST" id="contactForm" name="contactForm" action="contact.php" class="contactForm needs-validation" novalidate>
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
 												<label class="label" for="name">Full Name</label>
-												<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												<input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+												<div class="invalid-feedback">This is a required field.</div>
 											</div>
 										</div>
 										<div class="col-md-6"> 
 											<div class="form-group">
 												<label class="label" for="email">Email Address</label>
-												<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												<input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+												<div class="invalid-feedback">This is a required field.</div>
 											</div>
 										</div>
 										<div class="col-md-12">
@@ -148,7 +150,8 @@
 										<div class="col-md-12">
 											<div class="form-group">
 												<label class="label" for="#">Message</label>
-												<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message" required></textarea>
+												<div class="invalid-feedback">This is a required field.</div>
 											</div>
 										</div>
 										<div class="col-md-12">
@@ -206,7 +209,7 @@
 	              <ul>
 	                <li><span class="icon fa fa-map marker"></span><span class="text">Kincumber, NSW, 2251, Australia</span></li>
 	                <!--<li><a href="tel://1234567920"><span class="icon fa fa-phone"></span><span class="text">+61 (0) 1234 56789</span></a></li>-->
-	                <li><a href="mailto:info@holisticlee.com.au"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">info@holisticlee.com.au</span></a></li>
+	                <li><a href="mailto:holistic_lee@hotmail.com"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">holistic_lee@hotmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -249,6 +252,24 @@
 	  document.body.scrollTop = 0;
 	  document.documentElement.scrollTop = 0;
 	}
+  </script>
+	  
+  <script>
+	  (function() {
+		  'use strict';
+		  window.addEventListener('load', function() {
+			  var forms = document.getElementsByClassName('needs-validation');
+			  var validation = Array.prototype.filter.call(forms, function(form) {
+				  form.addEventListener('submit', function(event) {
+					  if (form.checkValidity() === false) {
+						  event.preventDefault();
+						  event.stopPropagation();
+					  }
+					  form.classList.add('was-validated');
+				  }, false);
+			  });
+		  }, false);
+	  })();
   </script>
 
   <script src="js/jquery.min.js"></script>
